@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shir.androidfinalproject.Fragments.AddEventDatesFragment">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="3dp"
+       android:text="Set event last update date"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/tv_last_update_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textSize="20dp"
+            android:text="02/09/2017"
+            android:inputType="date"/>
+        <ImageView
+            android:id="@+id/iv_last_update_date"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/add_button"
+            android:layout_marginLeft="10dp"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Set event duration"/>
+    <NumberPicker
+        android:id="@+id/np_duration"
+        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Add date"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/tv_add_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textSize="20dp"
+            android:inputType="date"/>
+        <EditText
+            android:id="@+id/tv_add_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textSize="20dp"
+            android:inputType="datetime"/>
+        <ImageView
+            android:id="@+id/iv_add_date"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/add_button"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/lv_dates_list"
+        android:layout_margin="3dp">
+    </ListView>
+    <ImageView
+        android:id="@+id/btn_invite_friends"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/next_button" />
+
+</LinearLayout>

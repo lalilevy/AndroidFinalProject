@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="StatusButtonsView">
+        <attr name="btnInterestedText" format="string" />
+        <attr name="btnGoingText" format="string" />
+        <attr name="btnIgnoreText" format="string" />
+        <attr name="android:ems"/>
+    </declare-styleable>
+</resources>

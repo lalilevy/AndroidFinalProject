@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#0000ff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="torkiz">#ADD8E6</color>
+    <color name="gray">	#92a4ab</color>
+    <color name="lightBlue">#3fa9f5</color>
+    <color name="iconBack">#f7f7f7</color>
+
+    <!---->
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FFA000</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorText">#212121</color>
+    <color name="colorTextHint">#FFA000</color>
+
+    <!---->
+
+    <!--<color name="colorPrimary">#51d8c7</color>-->
+    <!--<color name="colorAccent">#FFFFFF</color>-->
+    <!--<color name="colorBackground">#413e4f</color>-->
+    <!--<color name="colorText">#FFFFFF</color>-->
+    <!--<color name="colorTextHint">#51d8c7</color>-->
+    <!--<color name="colorAccent">#c8e8ff</color>-->
+    <!--<color name="colorPrimary">#125688</color>-->
+    <!--<color name="colorPrimaryDark">#125688</color>-->
+    <!--<color name="textColorPrimary">#FFFFFF</color>-->
+    <!--<color name="windowBackground">#FFFFFF</color>-->
+    <!--<color name="navigationBarColor">#000000</color>-->
+</resources>

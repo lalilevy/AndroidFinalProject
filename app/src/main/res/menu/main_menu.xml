@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.MainActivity">
+    <item
+        android:id="@+id/menu_events"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:showAsAction="ifRoom"
+        android:title="Events" />
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_action_account_circle_40"
+        android:showAsAction="ifRoom"
+        android:title="Profile" />
+    <item
+        android:id="@+id/main_logout"
+        android:icon="@drawable/ic_logout"
+        android:showAsAction="ifRoom"
+        android:title="Logout"/>
+</menu>
