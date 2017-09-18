@@ -1,17 +1,22 @@
 package com.shir.androidfinalproject;
 
 import android.app.Application;
-//import com.facebook.FacebookSdk;
+import android.content.Context;
 
 /**
  * Created by shir on 01-Sep-17.
  */
 
 public class App extends Application {
+    private static Context context;
+
     @Override
     public void onCreate() {
         super.onCreate();
-  //      FacebookSdk.sdkInitialize(getApplicationContext());
+        context = getApplicationContext();
+    }
 
+    public static Context getMyContext(){
+        return context;
     }
 }

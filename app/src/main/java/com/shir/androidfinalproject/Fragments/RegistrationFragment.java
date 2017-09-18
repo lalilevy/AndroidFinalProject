@@ -1,10 +1,8 @@
 package com.shir.androidfinalproject.Fragments;
 
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 import android.app.Fragment;
-import android.support.annotation.RequiresApi;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.widget.AppCompatButton;
@@ -13,18 +11,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.shir.androidfinalproject.Models.User;
 import com.shir.androidfinalproject.R;
-import com.shir.androidfinalproject.data.InputValidation;
+import com.shir.androidfinalproject.Data.InputValidation;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link RegistrationFragment.RegistrationListener} interface
- * to handle interaction events.
- * Use the {@link RegistrationFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class RegistrationFragment extends Fragment implements View.OnClickListener {
 
     //region DataMembers
@@ -44,7 +33,6 @@ public class RegistrationFragment extends Fragment implements View.OnClickListen
 
     private InputValidation inputValidation;
 
-    private User user;
     private RegistrationListener mListener;
 
     public static final String TAG = "RegistrationFragment";
@@ -60,13 +48,11 @@ public class RegistrationFragment extends Fragment implements View.OnClickListen
         return fragment;
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_registration, container, false);
-        //((AppCompatActivity)getActivity()).getSupportActionBar().hide();
 
         initViews(view);
         initListeners();
@@ -105,10 +91,8 @@ public class RegistrationFragment extends Fragment implements View.OnClickListen
     /**
      * This method is to initialize objects to be used
      */
-    @RequiresApi(api = Build.VERSION_CODES.M)
     private void initObjects() {
-        inputValidation = new InputValidation(getContext());
-        user = new User();
+        inputValidation = new InputValidation(getActivity());
     }
 
     /**
@@ -136,9 +120,6 @@ public class RegistrationFragment extends Fragment implements View.OnClickListen
         }
     }
 
-    /**
-     * This method is to validate the input text fields and post data to SQLite
-     */
     private boolean isInputsValid() {
         if (!inputValidation.isInputEditTextFilled
                 (editRegisterName, txtRegisterName, getString(R.string.error_message_name))) {
@@ -180,16 +161,6 @@ public class RegistrationFragment extends Fragment implements View.OnClickListen
         mListener = null;
     }
 
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     * <p>
-     * See the Android Training lesson <a href=
-     * "http://developer.android.com/training/basics/fragments/communicating.html"
-     * >Communicating with Other Fragments</a> for more information.
-     */
     public interface RegistrationListener {
         void onUserRegisterd(String userName, String email, String password);
         void onLinkToSignin();

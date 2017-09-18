@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject.data;
+package com.shir.androidfinalproject.Data;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,8 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -17,11 +17,6 @@ public class InputValidation  {
     private Context context;
     private static final String TAG = "InputValidation";
 
-    /**
-     * constructor
-     *
-     * @param context
-     */
     public InputValidation(Context context) {
         this.context = context;
     }
@@ -50,9 +45,21 @@ public class InputValidation  {
     }
 
 
+    public boolean isEditTextFilled(EditText editText, String message) {
+        String value = editText.getText().toString().trim();
+        if (value.isEmpty()) {
+            editText.setError(message);
+            hideKeyboardFrom(editText);
+            return false;
+        } else {
+            editText.setError(null);
+        }
+
+        return true;
+    }
+
     /**
      * method to check InputEditText has valid email .
-     *
      * @param textInputEditText
      * @param textInputLayout
      * @param message
@@ -73,20 +80,16 @@ public class InputValidation  {
         return true;
     }
 
-    public Date getValidateDate(TextInputEditText editInputEditText,
-                                        TextInputLayout textInputLayout,
-                                        String message,
-                                        String dateFormat) {
+    public Date getValidateDate(EditText editDate, String message, String dateFormat) {
 
         Date dtValidate = null;
-        String value = editInputEditText.getText().toString();
+        String value = editDate.getText().toString();
 
         if (!value.isEmpty()) {
             try {
-                SimpleDateFormat sdf = new SimpleDateFormat(dateFormat);//, Locale.US);
+                SimpleDateFormat sdf = new SimpleDateFormat(dateFormat);
                 dtValidate = sdf.parse(value);
-                
-                textInputLayout.setErrorEnabled(false);
+                editDate.setError(null);
                         
             } catch (Exception pe){
                 Log.d(TAG, "ERROR getValidateDate" + pe.getMessage());
@@ -94,32 +97,31 @@ public class InputValidation  {
         }
         
         if (dtValidate == null){
-            textInputLayout.setError(message);
-            hideKeyboardFrom(editInputEditText);
+            editDate.setError(message);
+            hideKeyboardFrom(editDate);
         }
         
         return dtValidate;
     }
 
-    public int getValidateInt(TextInputEditText editInputEditText,
-                                TextInputLayout textInputLayout,
-                                String message) {
+    public int getValidateInt(EditText editInt, String message) {
 
         int nValidate = -1;
-        String value = editInputEditText.getText().toString();
+        String value = editInt.getText().toString();
 
         if (!value.isEmpty()) {
             try {
                 nValidate = Integer.parseInt(value);
+                editInt.setError(null);
 
-                textInputLayout.setErrorEnabled(false);
-
-            } catch (NumberFormatException pe){ }
+            } catch (NumberFormatException pe){
+                Log.d(TAG, "ERROR getValidateDate" + pe.getMessage());
+            }
         }
 
         if (nValidate == -1){
-            textInputLayout.setError(message);
-            hideKeyboardFrom(editInputEditText);
+            editInt.setError(message);
+            hideKeyboardFrom(editInt);
         }
 
         return nValidate;

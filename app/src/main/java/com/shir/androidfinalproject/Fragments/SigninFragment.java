@@ -1,13 +1,10 @@
 package com.shir.androidfinalproject.Fragments;
 
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 import android.app.Fragment;
-import android.support.annotation.RequiresApi;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
 import android.view.LayoutInflater;
@@ -15,16 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.shir.androidfinalproject.R;
-import com.shir.androidfinalproject.data.InputValidation;
+import com.shir.androidfinalproject.Data.InputValidation;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link SigninFragment.SignInListener} interface
- * to handle interaction events.
- * Use the {@link SigninFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class SigninFragment extends Fragment implements View.OnClickListener {
 
     //region DataMembers
@@ -48,23 +37,14 @@ public class SigninFragment extends Fragment implements View.OnClickListener {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @return A new instance of fragment SigninFragment.
-     */
     public static SigninFragment newInstance() {
-        SigninFragment fragment = new SigninFragment();
-        return fragment;
+        return new SigninFragment();
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_signin, container, false);
-        //((AppCompatActivity)getActivity()).getSupportActionBar().hide();
 
         initViews(view);
         initListeners();
@@ -99,9 +79,8 @@ public class SigninFragment extends Fragment implements View.OnClickListener {
     /**
      * This method is to initialize objects to be used
      */
-    @RequiresApi(api = Build.VERSION_CODES.M)
     private void initObjects() {
-        inputValidation = new InputValidation(getContext());
+        inputValidation = new InputValidation(getActivity());
     }
 
     /**
@@ -125,9 +104,6 @@ public class SigninFragment extends Fragment implements View.OnClickListener {
         }
     }
 
-    /**
-     * This method is to validate the input text fields and verify login credentials from SQLite
-     */
     private boolean isInputsValid() {
         if (!inputValidation.isInputEditTextEmail
                 (editLoginEmail, txtLoginEmail, getString(R.string.error_message_email))) {
@@ -162,6 +138,4 @@ public class SigninFragment extends Fragment implements View.OnClickListener {
         void onUserSignIn(String userEmail, String password);
         void onLinkToRegistretion();
     }
-    
-    //endregion
 }

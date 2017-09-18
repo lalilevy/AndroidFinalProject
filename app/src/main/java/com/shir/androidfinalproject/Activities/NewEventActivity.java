@@ -1,36 +1,39 @@
 package com.shir.androidfinalproject.Activities;
 
-import android.support.v4.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.shir.androidfinalproject.CallBacks.SaveEventCallback;
+import com.shir.androidfinalproject.Enums.Status;
 import com.shir.androidfinalproject.Fragments.AddEventDatesFragment;
 import com.shir.androidfinalproject.Fragments.AddEventDetailsFragment;
 import com.shir.androidfinalproject.Fragments.AddEventLocationsFragment;
+import com.shir.androidfinalproject.Fragments.AddEventUsersFragment;
 import com.shir.androidfinalproject.Models.Event;
-import com.shir.androidfinalproject.Models.EventDate;
 import com.shir.androidfinalproject.R;
+import com.shir.androidfinalproject.Data.model;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class NewEventActivity extends BaseActivity implements
         AddEventDatesFragment.AddDatesListener,
         AddEventDetailsFragment.AddEventDetailsListener,
-        AddEventLocationsFragment.AddLocationsFragmentListener {
+        AddEventLocationsFragment.AddLocationsFragmentListener,
+        AddEventUsersFragment.AddEventUsersListener{
 
     private static final String TAG = "NewEventActivity";
 
-    AddEventLocationsFragment addEventLocationsFragment;
-    AddEventDatesFragment addEventDatesFragment;
+    private Date dtLastUpdate;
+    private int nDuration;
+    private String strTitle;
+    private String strDescription;
 
-    private Date lastUpdateDate;
-    private int duration;
-    private String title;
-    private String description;
-
-    ArrayList<String> locations;
-    String userName;
+    List<String> lstLocations = new ArrayList<>();
+    List<String> lstDates = new ArrayList<>();
+    List<String> lstUsers = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,78 +41,98 @@ public class NewEventActivity extends BaseActivity implements
         setContentView(R.layout.activity_new_event);
         getSupportActionBar().setTitle("New Event");
 
-        userName = getIntent().getStringExtra(MainActivity.USER_NAME);
-
         getFragmentManager()
                 .beginTransaction()
                 .add(R.id.nested_scroll_new_event, AddEventDetailsFragment.newInstance(), AddEventDetailsFragment.TAG)
                 .commit();
-
-//        if (findViewById(R.id.fragment_container) != null) {
-//
-//            // However, if we're being restored from a previous state,
-//            // then we don't need to do anything and should return or else
-//            // we could end up with overlapping fragments.
-//            if (savedInstanceState != null) {
-//                return;
-//            }
-//
-//            // Create a new Fragment to be placed in the activity layout
-//            addEventDetailsFragment = new AddEventDetailsFragment();
-//
-//            // Add the fragment to the 'fragment_container' FrameLayout
-//            getSupportFragmentManager().beginTransaction()
-//                    .add(R.id.fragment_container, addEventDetailsFragment).commit();
-//        }
-
     }
 
     @Override
     public void onGoToAddLocationClick(String Title, String Description, Date LastUpdateDate, int Duration) {
-        toastMessage("onGoToAddLocationClick - ok");
-
-        this.title = Title;
-        this.description = Description;
-        this.lastUpdateDate = LastUpdateDate;
-        this.duration = Duration;
-        //moveToLocationsFragment();
+        this.strTitle = Title;
+        this.strDescription = Description;
+        this.dtLastUpdate = LastUpdateDate;
+        this.nDuration = Duration;
+        goToAddLocationsFragment();
     }
 
-    private void moveToLocationsFragment() {
-        addEventLocationsFragment = new AddEventLocationsFragment();
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-
-// Replace whatever is in the fragment_container view with this fragment,
-// and add the transaction to the back stack so the user can navigate back
-        transaction.replace(R.id.nested_scroll_new_event, addEventLocationsFragment);
-        transaction.addToBackStack(null);
-
-// Commit the transaction
-        transaction.commit();
-    }
-
-    private void moveToAddDatesFragment() {
-        addEventDatesFragment = new AddEventDatesFragment();
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-
-// Replace whatever is in the fragment_container view with this fragment,
-// and add the transaction to the back stack so the user can navigate back
-        transaction.replace(R.id.nested_scroll_new_event, addEventDatesFragment);
-        transaction.addToBackStack(null);
-
-// Commit the transaction
-        transaction.commit();
+    private void goToAddLocationsFragment() {
+        getFragmentManager()
+                .beginTransaction()
+                .replace(R.id.nested_scroll_new_event, AddEventLocationsFragment.newInstance(), AddEventLocationsFragment.TAG)
+                .addToBackStack(AddEventLocationsFragment.TAG)
+                .commit();
     }
 
     @Override
-    public void onAddDatesClicked(ArrayList<String> lstLocations) {
-        this.locations = lstLocations;
-        //moveToAddDatesFragment();
+    public void onGoToAddDatesClick(List<String> locations) {
+        this.lstLocations = locations;
+        goToAddDatesFragment();
+    }
+
+    private void goToAddDatesFragment() {
+        getFragmentManager()
+                .beginTransaction()
+                .replace(R.id.nested_scroll_new_event, AddEventDatesFragment.newInstance(), AddEventDatesFragment.TAG)
+                .addToBackStack(AddEventDatesFragment.TAG)
+                .commit();
     }
 
     @Override
-    public void onInviteFriendsClick(Date lastUpdate, int duration, ArrayList<EventDate> EventDates) {
+    public void onGoToAddUserClick(List<String> dates) {
+        this.lstDates = dates;
+        goToAddUsersFragment();
+    }
 
+    private void goToAddUsersFragment() {
+        getFragmentManager()
+                .beginTransaction()
+                .replace(R.id.nested_scroll_new_event, AddEventUsersFragment.newInstance(userID), AddEventUsersFragment.TAG)
+                .addToBackStack(AddEventUsersFragment.TAG)
+                .commit();
+    }
+
+    @Override
+    public void onCreateEventClick(List<String> users) {
+        lstUsers = users;
+
+        showProgressDialog();
+        toastMessage("creating new event...");
+
+        Event event = new Event(userID, userName, strTitle, strDescription, dtLastUpdate, nDuration,
+                lstLocations, lstDates, lstUsers);
+
+        event.usersStatus.put(userID, Status.Host.getName());
+
+        for (String currUser: lstUsers) {
+            if (!currUser.equals(userID)){
+                event.usersStatus.put(currUser, Status.Invited.getName());
+            }
+        }
+
+        model.instance.addEvent(event, new SaveEventCallback() {
+            @Override
+            public void onCompleted(String eventKey) {
+                hideProgressDialog();
+                goToEventDetailActivity(eventKey);
+            }
+
+            @Override
+            public void onCanceled(Exception e) {
+                hideProgressDialog();
+            }
+        });
+    }
+
+    private void goToEventDetailActivity(String strEventID) {
+        Intent intent = new Intent(NewEventActivity.this, EventDetailActivity.class);
+        Bundle bundle = new Bundle();
+        intent.putExtras(bundle);
+        intent.putExtra(EventDetailActivity.EVENT_ID, strEventID);
+        intent.putExtra(USER_ID, userID);
+        intent.putExtra(USER_NAME, userName);
+        startActivity(intent);
+        finish();
     }
 
     private void toastMessage(String message) {

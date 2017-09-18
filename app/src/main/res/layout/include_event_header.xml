@@ -2,8 +2,10 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:gravity="center_vertical"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,9 +14,9 @@
 
         <ImageView
             android:id="@+id/event_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_action_account_circle_40"/>
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/cal" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,7 +29,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:gravity="center_vertical"
-                android:text="Drag nigght shie"
                 style="@style/EventNameTheme"/>
             <TextView
                 android:id="@+id/event_date"
@@ -35,7 +36,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:gravity="center_vertical"
-                android:text="monday, may 29 at 7 pm"
                 style="@style/EventVotesTheme"/>
             <TextView
                 android:id="@+id/event_address"
@@ -43,7 +43,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:gravity="center_vertical"
-                android:text="haaliya 62 tel aviv"
                 style="@style/EventVotesTheme"/>
             <TextView
                 android:id="@+id/event_invitation_info"
@@ -51,7 +50,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:gravity="center_vertical"
-                android:text="lital levy invaited you to this private event"
                 android:textColor="@color/gray"/>
 
         </LinearLayout>
@@ -61,78 +59,52 @@
         android:id="@+id/event_row_options"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp">
+        android:layout_margin="5dp">
 
-        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
-            android:id="@+id/sp_event_status"
+        <Spinner
+            android:id="@+id/spUserStatus"
+            style="@style/Widget.AppCompat.Spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:hint="status"
-            android:gravity="center"
-            app:met_floatingLabel="normal"/>
+            android:entries="@array/status_list_array"
+            android:prompt="@string/status_prompt"
+            android:spinnerMode="dropdown"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="2dp"
+            android:layout_toStartOf="@+id/btn_event_preference_layout" />
 
         <LinearLayout
             android:id="@+id/btn_event_preference_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
             android:gravity="center_vertical"
             android:orientation="horizontal">
-
 
             <Button
                 android:id="@+id/btn_event_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorTextHint"
                 android:gravity="center"
                 android:padding="2dp"
-                android:layout_margin="5dp"
-                android:textSize="12dp"
-                android:background="@color/colorTextHint"
-                android:text="select date" />
+                android:text="@string/select_date"
+                android:textSize="12dp" />
 
             <Button
                 android:id="@+id/btn_event_location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_margin="5dp"
-                android:padding="2dp"
-                android:textSize="12dp"
                 android:background="@color/colorTextHint"
-                android:text="select location" />
-            </LinearLayout>
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/select_location"
+                android:textSize="12dp" />
+        </LinearLayout>
+
     </RelativeLayout>
 </LinearLayout>
-
-<!--<Button-->
-<!--android:id="@+id/btn_event_preference"-->
-<!--android:layout_width="wrap_content"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:gravity="center"-->
-<!--android:padding="5dp"-->
-<!--android:background="@color/colorTextHint"-->
-<!--android:text="Set your event preference" />-->
-
-<!--<Spinner-->
-<!--android:id="@+id/event_status"-->
-<!--android:layout_width="wrap_content"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:layout_alignParentTop="true"-->
-<!--android:layout_alignParentLeft="true"-->
-<!--android:prompt="Choose a status1"-->
-<!--style="@style/Widget.AppCompat.Spinner"-->
-    <!--/>-->
-
-<!--<android.support.v7.widget.AppCompatSpinner-->
-<!--android:id="@+id/spinner1"-->
-<!--android:layout_width="wrap_content"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:gravity="center"-->
-<!--android:layout_alignParentTop="true"-->
-<!--android:layout_alignParentLeft="true"-->
-<!--android:hint="status2"-->
-<!--android:textSize="16dp" />-->

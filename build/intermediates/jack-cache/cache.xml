@@ -2,124 +2,28 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\shir\.android\build-cache\2634f451d03b57280926168487a09ac59c9147ff\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\a8afb53d83ea40ab3b99cf158763c1dfba26a376\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-16eb95237088f3167a4c938a16e32e01d20d3a27.jar" />
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-61267a80db8cd4a3f36cbcbdbd851888886d730b.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.android\build-cache\5cd33d2c167b3975aa7c27ecc124f3d7dbd1f388\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\9a52f25946f58da9fa969c17bdee06cdc7c23c06\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="28ed270c519ff2874343e0824808da2efda0df9c">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-efa6d1c577a5ec47f7dc47905d6378ac967fe1ab.jar" />
+        sha1="01a590e11a94cb7f5c8b1243d4a2783eab4d0a34">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3276af67a08091b37d9c41c59e580c4d4f633c3a.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.android\build-cache\320ac287af24191b26181d99f2bf85b1a0d02318\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\87edf49e1b3e7c22b6f7bc861b2afb99a5f04e18\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="c99e8918a5dcebef519ecf5c66b461aa0b3d7e19">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c0d652e3b71d4628aa91d376714f55f885fe5a27.jar" />
+        sha1="cc242f56a1928f63fac5356ead0d074ebf7d2c2d">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ad61e0b13e2e5366c40ef1fe3333259bf0c05938.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.android\build-cache\090de8cf70b0480169108daff239be12d0c78d3c\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\5956ea9179a69d5e3f72366dda086c03593ada27\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b4b74f95c15bb22b58f0c63dff2a5be4c0f64ff9.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\20acb5e027ce1e4abd0eef77dc0a5becbc22e9e2\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="cad6f251cba07624f49b0c5b6287731a3c9957b8">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e129e713a8b50f0a5249894400c94756e438dbc2.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\02a41e7b62049d1688092d9cc2adf94c97eb22d0\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-eca70c5913f3da31e9d72f1630840f9f96d98bbb.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.3.1-1588391bd5cb54b985cf00a89de3f050c2c4698f.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-f9b607948638a83c533d2d5a521f19e63e29a47e.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\65b330efb36552d0e12fedfb15633b93e9d114bc\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d47e3d474f4b32856b9dd36068ca4a58981253a1.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\71e28253e788dc8a7f5e92cd794ae79f87d53a50\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="03589bac12234193d4a7a9b106a6db1b367afe99">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-737184def8c351c9d04fcf655c391dae56dbedd4.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\709cf076f0b834b687fa7ccee0fa5170889d8c6d\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="07b52724ade6a26fecb53090da1574913fc78639">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-fe188845f734f8ce3c9b34b3961c8a55ebd3b497.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\1c6de7bee2413eb0cc698fd107d9c5480a6f3868\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="c478771eacdf8217e093a1b967b8152cfdaadc94">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8b08a262f6bb97603f6d5766c32ae0d7420196fa.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\b28f626a3d0d6e56427861a0386f2b8b84181906\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="edba0aec4aedd4edb3a520b4ee87adc52be762da">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a498d02404cd44c9d105930d522dce505f9ad946.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\70e6129bac6a8f372b678ab13d310d49a44994b9\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="36a6c288ed760d2d899126fa90761b84af10dd2d">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1128ac6cf32b0c02f8f626680a69753e99f0e8c3.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\43131cbb4554af46c9889c36686c274d6b79b0a6\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1b1a39bb70cb85d7c317d4e6d66f54ddc7230e56.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\8e1d127a351d948606af9aa30f3bfb1eba4154ee\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="67a51ae54d61ca318e61c73cdd9b27ec56af03bc">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-428c49d9a8504bb1844a8208787b8f47b571957a.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\519c25b4f412bd137f2173d43198306f06fbe216\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="7b4dc2d9e39fb8ec5ddca9b3b3cb7c627690f3a6">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-80f152fe771e062d50483c4906f1cadfee5b4db9.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\c4e7e66decbdbfd5f47cc361ee65ff42077bd72c\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="f5bcd9cbfeedc58f493339841a7c5d0347a39f0b">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2bb027f3dcdd4c1f7e404a6cd2b2476c83d4c588.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\d832dcb56167f0ec22138c1c38a3329e401760fc\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ad83e3b23099f0fa6a3466a6dacb0059450c42e4.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        revision="25.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\glide-3.7.0-8c8c21c86ce15458138265afd9a35d0036a53fb0.jar" />
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-051119396ef8184c20f0117f8d2d01395f9f6fde.jar" />
     </item>
     <item
         jar="C:\Users\shir\.android\build-cache\b26c001590208bdd5e19f9fde04b0eda49915524\output\jars\classes.jar"
@@ -128,70 +32,70 @@
         <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-f023ba766d2a411dc05a8eec5619f92b2f97a9c2.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jar="C:\Users\shir\.android\build-cache\f623250152093e6cb9db9c3e9939347f982fd830\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\library-2.4.0-417b1a98ec687c85b01f1ee0d3fdd73039d0d148.jar" />
+        sha1="9c80e982366ff105ce567a3e536cb77ae4981ade">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c0929eb15b1e06582c1ea95eb1a2ea30b0c90931.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.android\build-cache\945ee6b27447f08534d4cb18714b917b612e7e14\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\eb0c7ec5157d95ba76a76dbddddfefadf15343a3\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="052802ed198178e7133de387fbc87d3f2998482a">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-92917f7c9ea25aa96621234e3bedc4ad58443efb.jar" />
+        sha1="539c74d461960397d4c3f72623c72eb766569075">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-34713fe4531ec37fbf8d964f2295b446e9bc1d03.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.android\build-cache\2ad4607e3235d7154b92c992388b839429f1fb6a\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="3da345d7c08a7e9d83a34d8723057624b941c0ea">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e452672d9dc76b3b196ebe065dcc08c00b7dcb50.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\e7c8b54bc10ba0032ea1f4ef3a58c226a565ebd0\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-beed14417bc8652b3b5083d6876574fb3048e789.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\3b78e4e1231af1ecd51fd33d12d1393c538a3742\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-16efc9026eb613fb21da07dd4a299b9245eec91d.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\c0c0b78b13b3b87e8a9994151e2aaa60a0f2b1e3\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-03c93529db4a693d7ee9350deed508473b0811d9.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\563776b7e055d4a56b4449f5927401645a1d7084\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-91bcf0ddf268f4d44f7059744c8452b5dc324f95.jar" />
-    </item>
-    <item
-        jar="C:\Users\shir\.android\build-cache\209e31e1c7786316d8b7c07e3253403d01c9d9fd\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\724c4d88d4f45db7fb5c93d2ffbee88e8d9caf7b\output\jars\classes.jar"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b5877b1a93226bc844aca851b41d397039efcc88.jar" />
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a3b5b942d591c61eb9e0e4461d0808f141a8d797.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.android\build-cache\6a95ddbf4a258804a3e8e7b81da9fbe02cbb88c6\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\8e1d127a351d948606af9aa30f3bfb1eba4154ee\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-dd9812acc2b46559314591cb960e1fb65ea359f2.jar" />
+        sha1="67a51ae54d61ca318e61c73cdd9b27ec56af03bc">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-428c49d9a8504bb1844a8208787b8f47b571957a.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.android\build-cache\1b61e0991f3004fc4773d3fac6a82b5c5f531b9c\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\2c1bdcbf6c5b8ea675796f36c81218fdc9ba417e\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="132a3661719fdac703f2a6f6a7b178c85cfe3cc6">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-466458e99eb42aafa5c99172c6918fabbe98509f.jar" />
+        sha1="7cf5def5a11365487219b912b2a7ba8ad26f9917">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-752e4bdeaecdcb9b2faef8d243831fcba88bcae2.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.android\build-cache\fa265bd1d6b6b29f1d10d2c880a87b89d8a14bd3\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\210779fcaf998dbd9ec3439cd7f4a0c09a59eb97\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-abf42e8e79eced6c9c4199a764b1aa10935ea0d9.jar" />
+        sha1="a2a935bcf7d7c529f04dc89905d1ddf678d5e692">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-50a03254cd0f083d7eb788dc0179f6449cc19240.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\709cf076f0b834b687fa7ccee0fa5170889d8c6d\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="07b52724ade6a26fecb53090da1574913fc78639">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-fe188845f734f8ce3c9b34b3961c8a55ebd3b497.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\20acb5e027ce1e4abd0eef77dc0a5becbc22e9e2\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="cad6f251cba07624f49b0c5b6287731a3c9957b8">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e129e713a8b50f0a5249894400c94756e438dbc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\43131cbb4554af46c9889c36686c274d6b79b0a6\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1b1a39bb70cb85d7c317d4e6d66f54ddc7230e56.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\e6d768b432465ad8067b1879cfe0317dbe63020d\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="fc10e35f477578b1766c883d4a8561c207684531">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-aac46fb554251ab798295a71cf82dc80c86876ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\921ad0c2250f0f07156003916874a5fef861917a\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-49c95a3c30f2ffa6698400264bdb8516ba4c445c.jar" />
     </item>
     <item
         jar="C:\Users\shir\.android\build-cache\b100b77a60eef2edfaec69f5200458392796b60e\output\jars\classes.jar"
@@ -200,10 +104,334 @@
         <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3a3fa64b2f6d8beaa5ae50b471192a5047dc34b5.jar" />
     </item>
     <item
-        jar="C:\Users\shir\.android\build-cache\3c70241ba64b10c5fdcf0859e333494204ee5125\output\jars\classes.jar"
+        jar="C:\Users\shir\.android\build-cache\14c29aeb6866de55852a03a7d39db44b187522a0\output\jars\classes.jar"
         revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-84ac95d02e9aa5bbee004da017cd2351046583bc.jar" />
+        sha1="f779085940b4f3c80ea711dc24a36649f16f4cd5">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ed7df1385a6ad9c423815744255696a8419812a9.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\498b018a70a72b655e9216d0427dd983dbd1180e\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="c6a5692945e9d4bc34baddb4f7cb79070038f739">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b306cf7cbb1221c51b989589bf3081a7458a5d73.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\0259ba3fa7c48a93132b70704ec08d15b4fe3950\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="57717bc4b81722a9c3e481fc6f150a950afd550c">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-246d657fb6c383c69b8e433ab38e2efb7fe7e6e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\755a2aa325aedd0f85f1066d1e976e5888d78c67\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="a3a0d55874ee03de768356d540983a20c95dd07a">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-299893a69d57986f3dd681908dab7221c526e725.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\824b84db9eb3add76903826594ec4b812bdc04fd\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="a93a72fe5e0ac12f4a8ff35c5a6ed651e142d10a">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4b79459acf32a8745d846805a0ee74e68d5312a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\6295cc806a8bf1439293987812baf44907cc1753\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="2df69841cd9793d6bfa2f78b7b7f4ea06d2296a7">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a2a37bd510181e6db55a835a8e94a678ff9b254b.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\1b61e0991f3004fc4773d3fac6a82b5c5f531b9c\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="132a3661719fdac703f2a6f6a7b178c85cfe3cc6">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-466458e99eb42aafa5c99172c6918fabbe98509f.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\045ff82ccf9e7a2c84e335f3e8a821cadc1d9704\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="31aafe75ac42184d700ec3f862bf735c33ba201a">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ce114964b10dd030720398f9fcbb4dd0c06db17e.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\4c3e492b1bb415317eec43459485896580d7d419\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="171b54791d6ecec42ffc943bf9ea1a363ff6ab4f">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7d6aa86814b61a6b4d8ef6cf9ecf6536dcf316e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\eec9c919970df7778c82472f95496c54102a9d69\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-19d6d72d6b390185f16a502f7ec6d759daca9855.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\1c6de7bee2413eb0cc698fd107d9c5480a6f3868\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="c478771eacdf8217e093a1b967b8152cfdaadc94">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8b08a262f6bb97603f6d5766c32ae0d7420196fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\933dcda938269216de53e5a0621e40e0ba0e9a09\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="0c6b6b87687475583a7841926cfcadef96280483">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-167215b178902269fb50cac3f090b563dc5d75d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\8ee146acdae8d36798f91a669a3da786117d9066\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="341fc0b4661ec63331b1d95d8ceaeb04f5fd25cd">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9a02de52a5be773b440b8e9f3b99ed1c0878e295.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\1484b249d451196564b029e39375f9baff84bd41\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="f5e24e901834850335a8bb7d95cf51ea1468a32a">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-872cb8ef29beeec223ad587f2ebed70d45bde599.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\71e28253e788dc8a7f5e92cd794ae79f87d53a50\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="03589bac12234193d4a7a9b106a6db1b367afe99">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-737184def8c351c9d04fcf655c391dae56dbedd4.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\9b467cbf930f6bad40bf173c6577988caeeb593b\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="6ff3baea295d5079a6b54538c8eab744ea72b4cc">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0cf7ab2af8d5b8457b76344ac75fc32c962d5a63.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\c881ec867ba74213c20f9e12aa5bd4054beb7f9e\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="0a3ae2ca8e64cdda4ae59aef07e33226cb950f5c">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-008589717c7785b0e16153d42ac992439e3db5aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\caf50c585f3d2857e70b6bbfb7dc9f7459be92c9\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="bd362e8a7451fb70f9d28498949c1be35e5a2e6e">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9954032b3ff42dc7ac8db0dd6806ade50a6f461a.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\32571b7bad55506a8870faed0927a3fab6aafbc0\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="83f83593e58b678e8e6b8db6cf1fd8fe0e22dfe1">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9fa97be56d90ac85c27b7f66361b42b586f559c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\b28f626a3d0d6e56427861a0386f2b8b84181906\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="edba0aec4aedd4edb3a520b4ee87adc52be762da">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a498d02404cd44c9d105930d522dce505f9ad946.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\6288e6ff2a77177842f8cd32288973f140d577e4\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9244ac69da5bf53ca996627cc1ec10cf21ff365e.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\b5960e9c2c20ee0e0f546262d612fb97229a561c\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d1e7ad8d5340b695e52cc5a14819f4264a4f4b8e">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4acaf034203753f538ad77fab7eead96f2cb4a58.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\cd10fba129d19f6a30fa02c22c5b797caf4bc954\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="41872d809cff2114169756aad6dcd593be2ecb59">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3347f16d7683d57bb216ee79776f1605ea8fae3c.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\f88006f17bf428d9f586129bdb9e7b92203b603e\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="816a71eb5b0340d26db3056aa33f58dad108315b">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e7ee65da372be4f377d075d92fa5f4a5d332f4f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\320ac287af24191b26181d99f2bf85b1a0d02318\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="c99e8918a5dcebef519ecf5c66b461aa0b3d7e19">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c0d652e3b71d4628aa91d376714f55f885fe5a27.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\519c25b4f412bd137f2173d43198306f06fbe216\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="7b4dc2d9e39fb8ec5ddca9b3b3cb7c627690f3a6">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-80f152fe771e062d50483c4906f1cadfee5b4db9.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\2ad4607e3235d7154b92c992388b839429f1fb6a\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="3da345d7c08a7e9d83a34d8723057624b941c0ea">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e452672d9dc76b3b196ebe065dcc08c00b7dcb50.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\f492db4445560836c88059597a5ad59675146a78\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="103378d4e51581df4783e9e4a59a1775fe4f4104">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-023999362901f1c84e6b454f425a3f541a5d793e.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\454f2ca7d69bba8913cf0b4a9cc476d0dba01dd1\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="3227957f15e5f672f35758c028cf3b94fb39b56d">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6ef69c73e2a2254a7042f26f588a2fd93a93a107.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\e0adf7459fba8dccc3c964df70c353ffe2578b0d\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d1a80b23cc4097106a3f4914928e700ac3c5b2ed">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-422923ecd4dad33bd708b72a4555707d67a6c6da.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\5f55447c9c489eb77250fda0f8d062d9a3007b50\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-787ad6780d65aedc8c0ec36e44aac78af15c5305.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\4b50599b4b3209f51eb01a65afc210ee6e3dbe48\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="00e57da8e7efba5e0aead2d3c76201d86918a0d1">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-58e31cea2a27da171fc63d721722e9565897401c.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\fa265bd1d6b6b29f1d10d2c880a87b89d8a14bd3\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-abf42e8e79eced6c9c4199a764b1aa10935ea0d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\37b2bfe3efb2fafb08a26279f3dad4059b8a7864\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="010af21d7b95f7c975dd3d2fb2aa936a241b385b">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1f5332314f27e4b56d54baff6fa83ac366840159.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\5cd33d2c167b3975aa7c27ecc124f3d7dbd1f388\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="28ed270c519ff2874343e0824808da2efda0df9c">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-efa6d1c577a5ec47f7dc47905d6378ac967fe1ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\563776b7e055d4a56b4449f5927401645a1d7084\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-91bcf0ddf268f4d44f7059744c8452b5dc324f95.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\715f61454742fab7a6cafef25686f280685e9b3e\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="df812c448ef60fa0032ced451751ff98392b70a1">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-23d9d41e68070bd7febfc5753c8fd8a587cd6c1a.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\859882bbd997c5458de1108399b2878ce7f262b8\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="6987a74958e42b559fd0eacef972173f59ba93bb">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-699efad9f25b21eab55567db2a4b73e7bb964136.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\5b9b3d6295c0d7fa8c9eccec7555ee3f0c993c48\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="c839ceb2113b00249e896c1c02ae15cdd8380345">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6bb3829ba5df5faca08fd7a6f1a6427b350bf4c2.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\73ff40a95de154c7ef38c0d1466c5b6e44cf2520\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="e82b33733f801187c5b502d56fe1e3014de84b71">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-275c66164cbebeda897f40bc659c2858708f6ed6.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\0e4919a783c4ae89ee19ca1f923a24b62d8304c3\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3da1addcc58210e77122bde39e7cd6e8decacf7c.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\2634f451d03b57280926168487a09ac59c9147ff\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-16eb95237088f3167a4c938a16e32e01d20d3a27.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\06d4416691f1f30a1db501200961fd2db9c2b117\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="694e2bf7a21fa46310a4a0309b9943060d573abe">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-82eb24a6e2ef87c2e0340602bc1b94faca46973f.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\090de8cf70b0480169108daff239be12d0c78d3c\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b4b74f95c15bb22b58f0c63dff2a5be4c0f64ff9.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
+        revision="25.0.2"
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.4.0-a079eaddc0751f420b50a3625a0456213a516906.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\8b05568b6ee5b3bf4ab41f340e1f5277448b6f9b\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="3cb3d952ad115e64a87bb90e183d654be1ac84bd">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-dc97d5545a218f73f626c907c4d2511dad3f8782.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\43f36137689f2383fa10bb16c3489f4602e5d6d0\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="56ae1b700bdd20fdf8c5347fadcc96228fc1bf16">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c85c09d9950eba9b38b9e2ba969154746c68fc86.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\a8ec321c8347c70408368e1aac295c1529395901\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="814b7c015442bfbedc29035e7afdfe383d893a03">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1a53e0cf1c405366b9bbf2bd84d5ebcb5b001bd3.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\099e4df24a9ff34cc7432c66ba4d97b9b4dd22bf\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="767b85989de73cb665e14510ff2657ef979241f9">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-199873992add98dfa666fcf9623f791cfb4d8cc4.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-f9b607948638a83c533d2d5a521f19e63e29a47e.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\03b629f8cd6d15348605197f8c029b6a21309daa\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="2a8ae88a3addcb045172d340c4d1e977cbd50c39">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-442eb4ef0987971508a22a50fcb741f8da4a305e.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\1b933cac8d9d7c2fef6eedad63667b979cb61a37\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="9d151a92bb0af74ea6368e57ddf0e03c609155b4">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-dc933f44c3210b930478752c45d59a3edb070e38.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\70e6129bac6a8f372b678ab13d310d49a44994b9\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="36a6c288ed760d2d899126fa90761b84af10dd2d">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1128ac6cf32b0c02f8f626680a69753e99f0e8c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\65b330efb36552d0e12fedfb15633b93e9d114bc\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d47e3d474f4b32856b9dd36068ca4a58981253a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\shir\.android\build-cache\3b4ccc02db4f22923d3280ce5e081bab69cc2b15\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="C:\Users\shir\Desktop\android\Matala4\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-73f651a0770f50dc24e1facf3157b2f49d405c7d.jar" />
     </item>
 
 </items>

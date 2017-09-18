@@ -1,28 +1,39 @@
 package com.shir.androidfinalproject.Models;
 
+import com.google.firebase.database.Exclude;
 import com.google.firebase.database.IgnoreExtraProperties;
 
-/**
- * Created by shir on 08-Sep-17.
- */
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
-// [START comment_class]
 @IgnoreExtraProperties
 public class Comment {
 
-    public String uid;
+    public String commentID;
+    public String userID;
     public String author;
     public String text;
+    public Date createDate;
 
     public Comment() {
         // Default constructor required for calls to DataSnapshot.getValue(Comment.class)
     }
 
     public Comment(String uid, String author, String text) {
-        this.uid = uid;
+        this.userID = uid;
         this.author = author;
         this.text = text;
+        createDate = new Date();
     }
 
+    @Exclude
+    public Map<String, Object> toMap() {
+        HashMap<String, Object> result = new HashMap<>();
+        result.put("userID", userID);
+        result.put("author", author);
+        result.put("text", text);
+        result.put("createDate", createDate);
+        return result;
+    }
 }
-// [END comment_class]

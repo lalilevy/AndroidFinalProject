@@ -1,144 +1,146 @@
 package com.shir.androidfinalproject.Adapters;
 
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.media.Image;
-import android.os.Build;
-import android.support.annotation.RequiresApi;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Spinner;
-import android.widget.TextView;
-import android.widget.Toast;
 
+import com.shir.androidfinalproject.Activities.BaseActivity;
+import com.shir.androidfinalproject.Activities.EventDetailActivity;
+import com.shir.androidfinalproject.Activities.MainActivity;
+import com.shir.androidfinalproject.CallBacks.GetSelectedItemCallback;
+import com.shir.androidfinalproject.Fragments.SingleChoiceDialog;
 import com.shir.androidfinalproject.Enums.Status;
+import com.shir.androidfinalproject.Holders.EventViewHolder;
 import com.shir.androidfinalproject.Models.Event;
-import com.shir.androidfinalproject.Models.UserEvent;
 import com.shir.androidfinalproject.R;
-import com.shir.androidfinalproject.data.DataManager;
-import com.shir.androidfinalproject.data.common;
+import com.shir.androidfinalproject.Data.model;
 
-import java.nio.ByteBuffer;
 import java.util.ArrayList;
+import java.util.List;
 
-public class EventsListAdapter extends ArrayAdapter<Event>
-        implements AdapterView.OnItemSelectedListener {
+public class EventsListAdapter extends RecyclerView.Adapter<EventViewHolder>  {
 
-    private ArrayList<Event> lstEvents;
-    private final Context context;
+    private List<Event> lstEvents;
+    private MainActivity context;
+    private String currUserID;
+    private String userName;
 
-    public EventsListAdapter(Context context, ArrayList<Event> values) {
-        super(context, R.layout.item_event, values);
+    public EventsListAdapter(MainActivity context, List<Event> values, String currentUserID, String strUsername) {
         this.context = context;
         this.lstEvents = values;
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.N)
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        LayoutInflater inflater = (LayoutInflater) context
-                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View rowView = inflater.inflate(R.layout.item_event, parent, false);
-
-        ImageView ivEventImage = (ImageView)rowView.findViewById(R.id.event_image);
-        TextView tvEventName = (TextView) rowView.findViewById(R.id.event_title);
-        TextView tvEventDate = (TextView) rowView.findViewById(R.id.event_date);
-        TextView tvEventAddress = (TextView) rowView.findViewById(R.id.event_address);
-        TextView tvEventInvitationInfo = (TextView) rowView.findViewById(R.id.event_invitation_info);
-        //Button btnEventPreference = (Button) rowView.findViewById(R.id.btn_event_preference);
-        //Spinner spEventStatus = (Spinner) rowView.findViewById(R.id.event_status);
-
-        // Spinner click listener
-        //spEventStatus.setOnItemSelectedListener(this);
-
-        // Creating adapter for spinner
-        ArrayAdapter<Status> dataAdapter = new ArrayAdapter<Status>
-                (this.context, android.R.layout.simple_spinner_item, Status.values());
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        //spEventStatus.setAdapter(dataAdapter);
-
-        Event currEvent = getItem(position);
-
-       // ivEventImage.setImageBitmap(currEvent.photosList.get(0));
-        tvEventName.setText(currEvent.title);
-        //tvEventDate.setText(currEvent.dateList.getMaximom().toString());
-        //tvEventAddress.setText(currEvent.locationsList.getMaximom().toString());
-
-
-        Status userStatus = Status.Going;
-
-        if (userStatus == Status.Host)
-        {
-            tvEventInvitationInfo.setText("You are hosting this Event");
-           // spEventStatus.setSelection(Status.Host.ordinal());
-           // spEventStatus.setEnabled(false);
-//            btnEventPreference.setVisibility(View.VISIBLE);
-        }
-        else if (userStatus == Status.Invited)
-        {
-//            tvEventInvitationInfo.setText( getDataManager().getUserByID(currEvent.usersList.getHost().userID).username
-//                                       + " invited you to this event");
-//            spEventStatus.setSelection(Status.Invited.ordinal());
-//            spEventStatus.setEnabled(true);
-//            btnEventPreference.setVisibility(View.INVISIBLE);
-        }
-        else if (userStatus == Status.Going)
-        {
-//            tvEventInvitationInfo.setText(currEvent.usersList.stream().filter(ue -> ue.status == Status.Going).count() + " guests are going");
-//            spEventStatus.setSelection(Status.Going.ordinal());
-//            spEventStatus.setEnabled(true);
-//            btnEventPreference.setVisibility(View.VISIBLE);
-
-            //TODO: create view that can change status and also have set preference btn
-        }
-        else if (userStatus== Status.NotGoing)
-        {
-            tvEventInvitationInfo.setText("You are not going to this event");
-//            spEventStatus.setSelection(Status.NotGoing.ordinal());
-//            spEventStatus.setEnabled(true);
-//            btnEventPreference.setVisibility(View.INVISIBLE);
-
-            //TODO: create view that can change status and also have set preference btn
-        }
-
-        return rowView;
-    }
-
-    public void preferenceClickHandler(View v)
-    {
-        Button btnChild = (Button)v;
-        btnChild.setText("I've been clicked!");
+        this.currUserID = currentUserID;
+        this.userName = strUsername;
     }
 
     @Override
-    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        // On selecting a spinner item
-        String item = parent.getItemAtPosition(position).toString();
+    public EventViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+        View itemView = LayoutInflater.from(viewGroup.getContext())
+                .inflate(R.layout.item_event, viewGroup, false);
 
-        // Showing selected spinner item
-        Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show();
-    }
-    public void onNothingSelected(AdapterView<?> arg0) {
-        // TODO Auto-generated method stub
+        return new EventViewHolder(itemView);
     }
 
-    private Bitmap getImageBitmap(Image image)
-    {
-        ByteBuffer buffer = image.getPlanes()[0].getBuffer();
-        byte[] bytes = new byte[buffer.capacity()];
-        buffer.get(bytes);
-        Bitmap bitmapImage = BitmapFactory.decodeByteArray(bytes, 0, bytes.length, null);
+    @Override
+    public void onBindViewHolder(EventViewHolder holder, int position) {
+        Event currEvent = lstEvents.get(position);
+        holder.bindToEvent(currEvent,
+                currUserID,
+                v -> onSelectDateClicked(currEvent),
+                v -> onSelectLocationClicked(currEvent));
 
-        return bitmapImage;
+        holder.spUserStatus.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
+                if (pos > 0){
+                    String selectedStatus = parent.getItemAtPosition(pos).toString();
+
+                    if (currEvent.setUserStatus(currUserID, Status.fromName(selectedStatus))){
+                        model.instance.notifyEventChanged(currEvent);
+                    }
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+
+        holder.itemView.setOnClickListener(v -> {
+            // Launch EventDetailActivity
+            Intent intent = new Intent(context, EventDetailActivity.class);
+            Bundle bundle = new Bundle();
+            intent.putExtras(bundle);
+            intent.putExtra(EventDetailActivity.EVENT_ID, currEvent.eventID);
+            intent.putExtra(BaseActivity.USER_ID, currUserID);
+            intent.putExtra(BaseActivity.USER_NAME, userName);
+            context.startActivity(intent);
+        });
     }
 
-    private DataManager getDataManager(){
-        return DataManager.getInstance(this.context);
+    @Override
+    public int getItemCount() {
+        if(lstEvents == null) return 0;
+        return lstEvents.size();
+    }
+
+    private void onSelectDateClicked(Event event) {
+        android.app.FragmentManager manager = context.getFragmentManager();
+        SingleChoiceDialog dialog = new SingleChoiceDialog(new GetSelectedItemCallback() {
+            @Override
+            public void onApproved(String selectedItem) {
+
+                if (event.setSelectedDate(currUserID, selectedItem)){
+                    model.instance.notifyEventChanged(event);
+                }
+            }
+
+            @Override
+            public void onCanceled() {
+            }
+        });
+
+        Bundle bundle = new Bundle();
+        bundle.putStringArrayList(SingleChoiceDialog.ITEMS, getDialogItems(event.datesList));
+        bundle.putString(SingleChoiceDialog.EVENT_ID, event.eventID);
+        bundle.putString(SingleChoiceDialog.TITLE, "SELECT DATE");
+        bundle.putInt(SingleChoiceDialog.SELECTED, event.getSelectedDateIndex(currUserID));
+        dialog.setArguments(bundle);
+        dialog.show(manager, "Dialog");
+    }
+
+    private void onSelectLocationClicked(Event event) {
+        android.app.FragmentManager manager = context.getFragmentManager();
+        SingleChoiceDialog dialog = new SingleChoiceDialog(new GetSelectedItemCallback() {
+            @Override
+            public void onApproved(String selectedItem) {
+
+                if (event.setSelectedLocation(currUserID, selectedItem)){
+                    model.instance.notifyEventChanged(event);
+                }
+            }
+
+            @Override
+            public void onCanceled() {
+            }
+        });
+
+        Bundle bundle = new Bundle();
+        bundle.putStringArrayList(SingleChoiceDialog.ITEMS, getDialogItems(event.locationsList));
+        bundle.putString(SingleChoiceDialog.EVENT_ID, event.eventID);
+        bundle.putString(SingleChoiceDialog.TITLE, "SELECT location");
+        bundle.putInt(SingleChoiceDialog.SELECTED, event.getSelectedLocationIndex(currUserID));
+        dialog.setArguments(bundle);
+        dialog.show(manager, "Dialog");
+    }
+
+    private ArrayList<String> getDialogItems(List<String> ls) {
+        ArrayList<String> ret_val = new ArrayList<>();
+        ret_val.addAll(ls);
+
+        return ret_val;
     }
 }

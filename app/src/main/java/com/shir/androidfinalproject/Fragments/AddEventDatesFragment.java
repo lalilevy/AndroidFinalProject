@@ -1,56 +1,58 @@
 package com.shir.androidfinalproject.Fragments;
 
 import android.app.DatePickerDialog;
+import android.app.Fragment;
 import android.app.TimePickerDialog;
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.text.TextUtils;
+import android.support.annotation.RequiresApi;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.DatePicker;
-import android.widget.ImageView;
-import android.widget.ListAdapter;
-import android.widget.ListView;
-import android.widget.NumberPicker;
-import android.widget.TextView;
+import android.widget.EditText;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
-import com.shir.androidfinalproject.Dialogs.DialogFragments;
-import com.shir.androidfinalproject.Models.EventDate;
+import com.shir.androidfinalproject.Adapters.DateListAdapter;
 import com.shir.androidfinalproject.R;
+import com.shir.androidfinalproject.Data.InputValidation;
 
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
+import java.util.List;
 
 public class AddEventDatesFragment extends Fragment
         implements View.OnClickListener,
         DatePickerDialog.OnDateSetListener,
-        TimePickerDialog.OnTimeSetListener,
-        AdapterView.OnItemClickListener{
+        TimePickerDialog.OnTimeSetListener {
 
     public static final String TAG = "AddEventDatesFragment";
+    private final String dateFormat = "dd/MM/yyyy";
+    private final String timeFormat = "hh:mm";
 
-    TextView tvLastEventUpdaeDate;
-    ImageView ivAddLastUpdateDate;
-    NumberPicker npDuration;
-    TextView tvAddDate;
-    TextView tvAddTime;
-    ImageView ivAddDate;
-    ListView lvDatesList;
-    ImageView btnInviteFriends;
+    EditText tvSelectedEventDate;
+    EditText tvSelectedEventTime;
+    Button btnSelectEventDate;
+    Button btnSelectEventTime;
+    Button btnAddDate;
+    FloatingActionButton btnGoToAddUsers;
 
-    boolean bIsAddDate;
-    Date dtLastUpdate, dtCurrAddDate;
-    int nDuration, year,  month, dayOfMonth, hourOfDay, minute;
-    ArrayList<EventDate> lstEventDates;
-    ListAdapter adapter;
+    RecyclerView datesListRecycler;
+    DateListAdapter mAdapter;
+    RecyclerView.LayoutManager mLayoutManager;
+    List<String> lstDates = new ArrayList<>();
+
+    InputValidation inputValidation;
+    String strCurrAddDate;
+    int nYear, nMonth, nDayOfMonth, nHourOfDay, nMinute;
 
     private AddDatesListener mListener;
 
@@ -58,160 +60,171 @@ public class AddEventDatesFragment extends Fragment
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @return A new instance of fragment EditStudentFragment.
-     */
     public static AddEventDatesFragment newInstance() {
-        AddEventDatesFragment fragment = new AddEventDatesFragment();
-        //Bundle args = new Bundle();
-//        args.putSerializable(STUDENT, student);
-//        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-        }
+        return new AddEventDatesFragment();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_add_dates, container, false);
+        View view = inflater.inflate(R.layout.fragment_add_event_dates, container, false);
 
-        tvLastEventUpdaeDate = (TextView) view.findViewById(R.id.tv_last_update_date);
-        ivAddLastUpdateDate = (ImageView) view.findViewById(R.id.iv_last_update_date);
-        npDuration = (NumberPicker) view.findViewById(R.id.np_duration);
-        tvAddDate = (TextView) view.findViewById(R.id.tv_add_date);
-        tvAddTime = (TextView) view.findViewById(R.id.tv_add_time);
-        ivAddDate = (ImageView) view.findViewById(R.id.iv_add_date);
-        lvDatesList = (ListView) view.findViewById(R.id.lv_dates_list);
-        btnInviteFriends = (ImageView) view.findViewById(R.id.btn_invite_friends);
-
-        // listening to single list item on click
-        npDuration.setOnClickListener(this);
-        ivAddDate.setOnClickListener(this);
-        btnInviteFriends.setOnClickListener(this);
-
-        npDuration.setMaxValue(8760);
-        npDuration.setMinValue(1);
-        npDuration.setWrapSelectorWheel(false);
-
-        initDataMembers();
-
-        //adapter = new VotesListAdapter(getActivity(), lstEventDates);
-
-        // Binding resources Array to ListAdapter
-        lvDatesList.setAdapter(adapter);
-
-        // listening to single list item on click
-        lvDatesList.setOnItemClickListener(this);
+        initViews(view);
+        initListeners();
+        initObjects();
 
         return view;
     }
 
-    private void initDataMembers(){
-        nDuration = 1;
-        lstEventDates = new ArrayList<>();
-        year = 0;
-        month = 0;
-        dayOfMonth = 0;
-        hourOfDay = 0;
-        minute = 0;
+    private void initViews(View view) {
+
+        tvSelectedEventDate = (EditText) view.findViewById(R.id.tvSelectedEventDate);
+        tvSelectedEventTime = (EditText) view.findViewById(R.id.tvSelectedEventTime);
+        btnSelectEventDate = (Button) view.findViewById(R.id.btnSelectEventDate);
+        btnSelectEventTime = (Button) view.findViewById(R.id.btnSelectEventTime);
+        btnAddDate = (Button) view.findViewById(R.id.btnAddDate);
+        btnGoToAddUsers = (FloatingActionButton) view.findViewById(R.id.btnGoToAddUsers);
+
+        datesListRecycler = (RecyclerView) view.findViewById(R.id.datesListRecycler);
+        datesListRecycler.setHasFixedSize(true);
+        mLayoutManager = new LinearLayoutManager(getActivity());// getApplicationContext());
+        datesListRecycler.setLayoutManager(mLayoutManager);
+        mAdapter = new DateListAdapter(lstDates);
+        datesListRecycler.setAdapter(mAdapter);
+    }
+
+    /**
+     * This method is to initialize listeners
+     */
+    private void initListeners() {
+
+        btnSelectEventDate.setOnClickListener(this);
+        btnSelectEventTime.setOnClickListener(this);
+        btnAddDate.setOnClickListener(this);
+        btnGoToAddUsers.setOnClickListener(this);
+    }
+
+    /**
+     * This method is to initialize objects to be used
+     */
+    private void initObjects() {
+        inputValidation = new InputValidation(getActivity());
+
+        Calendar calendar = Calendar.getInstance();
+        nYear = calendar.get(Calendar.YEAR);
+        nMonth = calendar.get(Calendar.MONTH);
+        nDayOfMonth = calendar.get(Calendar.DAY_OF_MONTH);
+        nHourOfDay = calendar.get(Calendar.HOUR_OF_DAY);
+        nMinute = calendar.get(Calendar.MINUTE);
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.btnSelectEventDate:
+                showDatePickerDialog();
+                break;
+            case R.id.btnSelectEventTime:
+                showTimePickerDialog();
+                break;
+            case R.id.btnAddDate:
+                if (isInputsValid()) {
+                    addNewDate();
+                }
+                break;
+            case R.id.btnGoToAddUsers:
+                if (!lstDates.isEmpty() && (mListener != null)){
+                    mListener.onGoToAddUserClick(lstDates);
+                } else {
+                    tvSelectedEventDate.setError("Must to add a date");
+                }
+                break;
+        }
+    }
+
+    private void showDatePickerDialog(){
+        Calendar now = Calendar.getInstance();
+
+        int yy = now.get(Calendar.YEAR);
+        int mm = now.get(Calendar.MONTH);
+        int dd = now.get(Calendar.DAY_OF_MONTH);
+
+        DatePickerDialog dpd1 = new DatePickerDialog(getActivity(), this, yy, mm, dd);
+        dpd1.getDatePicker().setMinDate(System.currentTimeMillis());
+        dpd1.setTitle("Select the date");
+        dpd1.show();
+    }
+
+    private void showTimePickerDialog(){
+        Calendar now = Calendar.getInstance();
+
+        int hh = now.get(Calendar.HOUR_OF_DAY);
+        int mm = now.get(Calendar.MINUTE);
+
+        TimePickerDialog tpd = new TimePickerDialog(getActivity(), this, hh, mm, true);
+        tpd.setTitle("Select the time");
+        tpd.show();
     }
 
     @Override
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.iv_last_update_date:
-                bIsAddDate = false;
-//                DialogFragments.DatePickerFragment fragment1 = new DialogFragments.DatePickerFragment();
-//                fragment1.show(getFragmentManager(), "date");
-//
+    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+        nYear = year;
+        nMonth = month + 1;
+        nDayOfMonth = dayOfMonth;
 
-                String strLastUpdate = tvLastEventUpdaeDate.getText().toString();
-                if (TextUtils.isEmpty(strLastUpdate)) {
-                    tvLastEventUpdaeDate.setError("Must to Enter a Last Update date");
+        tvSelectedEventDate.setText(nDayOfMonth+"/"+nMonth+"/"+nYear);
+    }
 
-                    dtLastUpdate = (Date)tvLastEventUpdaeDate.getText();
-                    return;
-                }
+    @Override
+    public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+
+        nHourOfDay = hourOfDay;
+        nMinute = minute;
+
+        tvSelectedEventTime.setText(nHourOfDay+":"+nMinute);
+    }
+
+    /**
+     * This method is to validate the input text fields and post data to SQLite
+     */
+    private boolean isInputsValid() {
+
+        Date dtValidDate = inputValidation.getValidateDate
+                (tvSelectedEventDate, "Must to Enter a date in format: " + dateFormat, dateFormat);
+
+        if (dtValidDate == null) {
+            return false;
+        } else {
+            Date dtValidTime = inputValidation.getValidateDate
+                    (tvSelectedEventTime, "Must to Enter a time in format: " + timeFormat, timeFormat);
+
+            if (dtValidTime == null){
+                return false;
+            } else {
                 try {
-                    DateFormat targetFormat = new SimpleDateFormat("MM/dd/yyyy"); //Output date format
-                    dtLastUpdate = targetFormat.parse(strLastUpdate);
-                } catch (Exception e) {}
-
-                break;
-            case R.id.np_duration:
-                nDuration = npDuration.getValue();
-                break;
-            case R.id.iv_add_date:
-                bIsAddDate = true;
-
-//                DialogFragments.DatePickerFragment fragment2 = new DialogFragments.DatePickerFragment();
-//                fragment2.show(getFragmentManager(), "date");
-
-                String strDate = tvAddDate.getText().toString();
-                String strTime = tvAddTime.getText().toString();
-                if (TextUtils.isEmpty(strDate)) {
-                    tvAddDate.setError("Must to Enter a start date");
-                    return;
+                    SimpleDateFormat sdfDate = new SimpleDateFormat("dd/MM/yyyy");
+                    SimpleDateFormat sdfTime = new SimpleDateFormat("hh:mm");
+                    String strDate = sdfDate.format(dtValidDate);
+                    String strTime = sdfTime.format(dtValidTime);
+                    strCurrAddDate = strDate + " " + strTime;
+                } catch (Exception ex){
+                    return false;
                 }
-                else if (TextUtils.isEmpty(strTime)) {
-                    tvAddTime.setError("Must to Enter a start time");
-                    return;
-                }
-                else{
-                    try{
-                        DateFormat targetFormat = new SimpleDateFormat("MM/dd/yyyy"); //Output date format
-                        dtCurrAddDate = targetFormat.parse(strDate);
-
-                        SimpleDateFormat df = new SimpleDateFormat("hh:mm");
-                        Date d = df.parse(strTime);
-
-                        dtCurrAddDate.setHours(d.getHours());
-                        dtCurrAddDate.setMinutes(d.getMinutes());
-
-                        EventDate ed = new EventDate(dtCurrAddDate);
-                        lstEventDates.add(ed);
-                    } catch (Exception e) {}
-                }
-                break;
-            case R.id.btn_invite_friends:
-                onInviteFriends();
-
-                break;
+            }
         }
+
+        return true;
     }
 
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        switch (view.getId()) {
-            case R.id.item_row:
-                //onShowStudentDetails(position);
-                break;
-        }
-    }
+    private void addNewDate(){
+        if ((strCurrAddDate != null) && (!lstDates.contains(strCurrAddDate))){
+            lstDates.add(strCurrAddDate);
 
-    private void onInviteFriends() {
-        String strLastUpdateDate = tvLastEventUpdaeDate.getText().toString();
-        if (TextUtils.isEmpty(strLastUpdateDate)) {
-            tvLastEventUpdaeDate.setError("Must to Enter a last update date");
-            return;
-        }
-        else if (lstEventDates.isEmpty()){
-            tvAddDate.setError("Must to add a date option");
-            return;
-        }
-
-        if (mListener != null) {
-            mListener.onInviteFriendsClick(dtLastUpdate, nDuration, lstEventDates);
+            mAdapter.notifyDataSetChanged();
+        } else {
+            Toast.makeText(getActivity(), "select new date", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -232,55 +245,8 @@ public class AddEventDatesFragment extends Fragment
         mListener = null;
     }
 
-    @Override
-    public void onDateSet(DatePicker view, int year, int month, int day) {
-        Calendar cal = new GregorianCalendar(year, month, day, this.hourOfDay, this.minute);
-
-        final DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.MEDIUM);
-        if (bIsAddDate){
-            this.year = year;
-            this.month = month;
-            this.dayOfMonth = day;
-
-            setCurrAddDate();
-
-            DialogFragments.TimePickerFragment frag = new DialogFragments.TimePickerFragment();
-            frag.show(getFragmentManager(), "time");
-        }
-        else{
-            dtLastUpdate = cal.getTime();
-            tvLastEventUpdaeDate.setText(dateFormat.format(dtLastUpdate));
-        }
-    }
-
-    @Override
-    public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-       this.hourOfDay = hourOfDay;
-        this.minute = minute;
-
-        setCurrAddDate();
-    }
-
-    private void setCurrAddDate(){
-        final DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.MEDIUM);
-        Calendar cal = new GregorianCalendar(this.year, this.month, this.dayOfMonth, this.hourOfDay, this.minute);
-        dtCurrAddDate = cal.getTime();
-
-        tvAddDate.setText(dateFormat.format(dtCurrAddDate));
-        tvAddTime.setText(hourOfDay + ":" + minute);
-    }
-
-//    // Method for remove Single item from list
-//    protected void removeItemFromList(int position)
-//    {
-//        final int deletePosition = position;
-//
-//        lstVotes.remove(deletePosition);
-//        this.notifyDataSetChanged();
-//        this.notifyDataSetInvalidated();
-//    }
     public interface AddDatesListener {
-        void onInviteFriendsClick(Date lastUpdate, int duration, ArrayList<EventDate> EventDates);
+        void onGoToAddUserClick(List<String> dates);
     }
 }
 

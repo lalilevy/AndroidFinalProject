@@ -2,9 +2,10 @@ package com.shir.androidfinalproject.Enums;
 
 public enum Status
 {
+    None("None", -1),
     Host("Host", 10),
     Going("Going", 20),
-    NotGoing("Not Going", 30),
+    Ignore("Ignore", 30),
     Invited("Invited", 40);
 
     private String name;
@@ -19,7 +20,8 @@ public enum Status
         return name;
     }
 
-    public int value() { return value; }
+    public int getValue() { return value; }
+    public String getName() { return name; }
 
     public static Status fromName(String name) {
 
@@ -31,7 +33,7 @@ public enum Status
             }
         }
 
-        throw new IllegalArgumentException("No static with display string " + name + " found");
+        return Status.None;
     }
 
     public static Status fromValue(int value) {
@@ -41,6 +43,6 @@ public enum Status
             }
         }
 
-        throw new IllegalArgumentException("No Status with value " + value + " found");
+        return Status.None;
     }
 }

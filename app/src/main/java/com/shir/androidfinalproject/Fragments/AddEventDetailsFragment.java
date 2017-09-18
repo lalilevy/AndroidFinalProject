@@ -1,43 +1,37 @@
 package com.shir.androidfinalproject.Fragments;
 
 import android.app.DatePickerDialog;
-import android.app.Dialog;
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.TextInputEditText;
-import android.support.design.widget.TextInputLayout;
 import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.EditText;
 
 import com.shir.androidfinalproject.R;
-import com.shir.androidfinalproject.data.InputValidation;
+import com.shir.androidfinalproject.Data.InputValidation;
 
 import java.util.Calendar;
 import java.util.Date;
 
-public class AddEventDetailsFragment extends Fragment implements View.OnClickListener {
+public class AddEventDetailsFragment extends Fragment
+        implements View.OnClickListener,
+        DatePickerDialog.OnDateSetListener {
     public static final String TAG = "AddEventDetailsFragment";
     private final String dateFormat = "dd/MM/yyyy";
 
     private AddEventDetailsListener mListener;
 
-    TextInputLayout txtEventTitle;
-    TextInputLayout txtEventDescription;
-    TextInputLayout txtEventLastUpdateDate;
-    TextInputLayout txtEventDuration;
-
-    TextInputEditText editEventTitle;
-    TextInputEditText editEventDescription;
-    TextInputEditText editEventLastUpdateDate;
-    TextInputEditText editEventDuration;
-
+    EditText editEventTitle;
+    EditText editEventDescription;
+    EditText editEventDuration;
+    EditText tvEventLastUpdateDate;
     FloatingActionButton btnGoToAddLocations;
+    Button btnEventLastUpdateDate;
 
     InputValidation inputValidation;
     Date dtLastUpdate;
@@ -51,7 +45,6 @@ public class AddEventDetailsFragment extends Fragment implements View.OnClickLis
         return new AddEventDetailsFragment();
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
@@ -64,48 +57,31 @@ public class AddEventDetailsFragment extends Fragment implements View.OnClickLis
         return view;
     }
 
-    /**
-     * This method is to initialize views
-     */
     private void initViews(View view) {
 
-        txtEventTitle = (TextInputLayout)view.findViewById(R.id.txtEventTitle);
-        txtEventDescription = (TextInputLayout)view.findViewById(R.id.txtEventDescription);
-        txtEventLastUpdateDate = (TextInputLayout)view.findViewById(R.id.txtEventLastUpdateDate);
-        txtEventDuration = (TextInputLayout)view.findViewById(R.id.txtEventDuration);
-
-        editEventTitle = (TextInputEditText)view.findViewById(R.id.editEventTitle);
+        editEventTitle = (EditText)view.findViewById(R.id.editEventTitle);
         editEventTitle.setFocusable(true);
-        editEventDescription = (TextInputEditText)view.findViewById(R.id.editEventDescription);
-        editEventLastUpdateDate = (TextInputEditText)view.findViewById(R.id.editEventLastUpdateDate);
-        editEventLastUpdateDate.setText(Calendar.getInstance().getTime().toString());
-        editEventDuration = (TextInputEditText)view.findViewById(R.id.editEventDuration);
-
+        editEventDescription = (EditText)view.findViewById(R.id.editEventDescription);
+        editEventDuration = (EditText)view.findViewById(R.id.editEventDuration);
+        tvEventLastUpdateDate = (EditText)view.findViewById(R.id.tvEventLastUpdateDate);
         btnGoToAddLocations = (FloatingActionButton)view.findViewById(R.id.btnGoToAddLocations);
+        btnEventLastUpdateDate = (Button)view.findViewById(R.id.btnEventLastUpdateDate);
     }
 
-    /**
-     * This method is to initialize listeners
-     */
     private void initListeners() {
         btnGoToAddLocations.setOnClickListener(this);
-        //txtEventLastUpdateDate.setOnClickListener(this);
-        //editEventLastUpdateDate.setOnClickListener(this);
+        btnEventLastUpdateDate.setOnClickListener(this);
     }
 
-    /**
-     * This method is to initialize objects to be used
-     */
-    @RequiresApi(api = Build.VERSION_CODES.M)
     private void initObjects() {
-        inputValidation = new InputValidation(getContext());
+        inputValidation = new InputValidation(getActivity());
         Calendar calendar = Calendar.getInstance();
         nYear = calendar.get(Calendar.YEAR);
         nMonth = calendar.get(Calendar.MONTH);
         nDay = calendar.get(Calendar.DAY_OF_MONTH);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
+    //@RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -118,52 +94,48 @@ public class AddEventDetailsFragment extends Fragment implements View.OnClickLis
                             nDuration);
                 }
                 break;
-            case R.id.editEventLastUpdateDate:
-
-                showDialog(0);
-                //showDialog(DATE_ID);
-                //new DatePickerDialog(getContext(), mDateSetListener, nYear, nMonth, nDay);
-                break;
-            case R.id.txtEventLastUpdateDate:
-                showDialog(0);
-                //new DatePickerDialog(getContext(), mDateSetListener, nYear, nMonth, nDay);
+            case R.id.btnEventLastUpdateDate:
+                showDatePickerDialog();
                 break;
         }
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
-    private Dialog showDialog(int id) {
-        return new DatePickerDialog(getContext(), mDateSetListener, nYear, nMonth, nDay);
-        //return null;
+    private void showDatePickerDialog(){
+        Calendar now = Calendar.getInstance();
+
+        int yy = now.get(Calendar.YEAR);
+        int mm = now.get(Calendar.MONTH);
+        int dd = now.get(Calendar.DAY_OF_MONTH);
+
+        DatePickerDialog dpd1 = new DatePickerDialog(getActivity(), this, yy, mm, dd);
+        dpd1.getDatePicker().setMinDate(System.currentTimeMillis());
+        dpd1.setTitle("Select the date");
+        dpd1.show();
     }
 
-    private DatePickerDialog.OnDateSetListener mDateSetListener =
-            new DatePickerDialog.OnDateSetListener(){
-                public void onDateSet(DatePicker view, int year, int month, int day){
-                    nYear = year;
-                    nMonth = month;
-                    nDay = day;
+    @Override
+    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+        nYear = year;
+        nMonth = month +1;
+        nDay = dayOfMonth;
 
-                    editEventLastUpdateDate.setText(nYear + "-" + (nMonth + 1) + "-" + nDay);
-                }
-            };
+        tvEventLastUpdateDate.setText(nDay+"/"+nMonth+"/"+nYear);
+    }
 
     /**
      * This method is to validate the input text fields and post data to SQLite
      */
     private boolean isInputsValid() {
 
-        if (!inputValidation.isInputEditTextFilled
-                (editEventTitle, txtEventTitle, "Must to Enter a title")) {
+        if (!inputValidation.isEditTextFilled(editEventTitle, "Must to Enter a title")) {
             return false;
         }
-        if (!inputValidation.isInputEditTextFilled
-                (editEventDescription, txtEventDescription, "Must to Enter a description")) {
+        if (!inputValidation.isEditTextFilled(editEventDescription, "Must to Enter a description")) {
             return false;
         }
 
         Date dtValid = inputValidation.getValidateDate
-                (editEventLastUpdateDate, txtEventLastUpdateDate, "Must to Enter a date in format: " + dateFormat, dateFormat);
+                (tvEventLastUpdateDate, "Must to Enter a date in format: " + dateFormat, dateFormat);
 
         if (dtValid == null) {
             return false;
@@ -171,8 +143,7 @@ public class AddEventDetailsFragment extends Fragment implements View.OnClickLis
             dtLastUpdate = dtValid;
         }
 
-        int nValid = inputValidation.getValidateInt
-                (editEventDuration, txtEventDuration, "Must to Enter a Duration");
+        int nValid = inputValidation.getValidateInt(editEventDuration, "Must to Enter a Duration");
 
         if (nValid == -1) {
             return false;
