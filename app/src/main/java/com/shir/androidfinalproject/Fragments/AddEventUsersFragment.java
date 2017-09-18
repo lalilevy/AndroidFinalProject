@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Fragments;
+package com.shir.androidfinalproject.Fragments;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -13,11 +13,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.colman.androidfinalproject.Adapters.UsersListAdapter;
-import com.colman.androidfinalproject.CallBacks.GetAllUsersCallback;
-import com.colman.androidfinalproject.Models.User;
-import com.colman.androidfinalproject.R;
-import com.colman.androidfinalproject.Data.model;
+import com.shir.androidfinalproject.Adapters.UsersListAdapter;
+import com.shir.androidfinalproject.CallBacks.GetAllUsersCallback;
+import com.shir.androidfinalproject.Models.User;
+import com.shir.androidfinalproject.R;
+import com.shir.androidfinalproject.Data.model;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Fragments;
+package com.shir.androidfinalproject.Fragments;
 
 import android.app.Fragment;
 import android.app.NotificationManager;
@@ -37,10 +37,10 @@ import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.PlaceBuffer;
 import com.google.android.gms.location.places.Places;
 import com.google.android.gms.location.places.ui.PlacePicker;
-import com.colman.androidfinalproject.Adapters.PlaceListAdapter;
-import com.colman.androidfinalproject.Data.PlaceContract;
-import com.colman.androidfinalproject.R;
-import com.colman.androidfinalproject.CallBacks.Geofencing;
+import com.shir.androidfinalproject.Adapters.PlaceListAdapter;
+import com.shir.androidfinalproject.Data.PlaceContract;
+import com.shir.androidfinalproject.R;
+import com.shir.androidfinalproject.CallBacks.Geofencing;
 
 import java.util.ArrayList;
 import java.util.List;

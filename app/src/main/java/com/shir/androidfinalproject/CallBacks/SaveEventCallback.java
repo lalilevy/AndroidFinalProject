@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.CallBacks;
+package com.shir.androidfinalproject.CallBacks;
 
 public interface SaveEventCallback {
     void onCompleted(String eventKey);

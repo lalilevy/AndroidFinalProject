@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Data;
+package com.shir.androidfinalproject.Data;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.colman.androidfinalproject.Models.User;
+import com.shir.androidfinalproject.Models.User;
 
 import java.util.ArrayList;
 import java.util.List;

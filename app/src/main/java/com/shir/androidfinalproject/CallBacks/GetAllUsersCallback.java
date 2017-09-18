@@ -1,6 +1,6 @@
-package com.colman.androidfinalproject.CallBacks;
+package com.shir.androidfinalproject.CallBacks;
 
-import com.colman.androidfinalproject.Models.User;
+import com.shir.androidfinalproject.Models.User;
 
 import java.util.List;
 

@@ -2,10 +2,130 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Lital\.android\build-cache\4c2e77ca96bcc781ab2169429a6bce88dfb560c9\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c9e51768096d908f09004d6b205ebd39cd239619.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\9f90eb44e4f57af2c0cb70873a2510d9a8f537ce\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="03589bac12234193d4a7a9b106a6db1b367afe99">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-28631e7272ffeacf589e5131faae771a07ef85d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\e5a4fe156e23e1b3ed4dae741c9324993af87072\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-04f1ae07391ddc3e1bba4b532d7f225bc84f352d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\c4f04568bd61a31c2442ae715b05ad4a2de21bdf\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e7c0eb9effd22fcd6e1812d7c023cd89ff2479e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\a544711e0c8e88d52e9e607300fa1d1a711a18b3\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b0481eb2e8d401d6e98517bd86f9a7e2c4f8e0f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\6f99cae5be1a0b375891c804fa866d6ed8c65f06\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c05d8c1e2ccc81e0afc94a368d8fe3c6af9a2639.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\6999a205bea7cf37aa1f195e04424d0a596c6e1c\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="76a7a625df0e9027b53dbed6e9ba9a6031a42e39">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-fd574aa807553c8c6f1b0e930a761ca04e4a4c20.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\fc0667ac9eacaa84f9af16de234015215d3cd8f0\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-83df47173a33b88b685ed176d512827aa8516ded.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\da26964ac867407dbdf1734c9a52ab76d5a1dc15\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1536f41bb00fb59fc8b791e212534a657eec7bc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\c14ba08ebd46da4812c6fad917e41949923dbf95\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e0e52988dd00cd06eae3f05daf25a65cf40acfe8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\53e36aa2320fc5a7dc56423e5d1a913f6aeda87e\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="7b4dc2d9e39fb8ec5ddca9b3b3cb7c627690f3a6">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7b7b8ea544ed3dc1aeabc540e51c69e762971635.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\c6751d4724d1144c8530049df831063e789c8287\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="132a3661719fdac703f2a6f6a7b178c85cfe3cc6">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d8c2f0026628005c4d0328b42e05c65c71fc5c81.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\126b8108396e4604ef514769b12949cd45385a4c\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="57717bc4b81722a9c3e481fc6f150a950afd550c">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e9bb65ff41b1fd8982078da151a25af6acb096e8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\e7112b7d93aa099148f338888541e58008c6f43a\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="3da345d7c08a7e9d83a34d8723057624b941c0ea">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c2ce710d7266a652c28aad7ea96065515302ff0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\8f196e3f8a5010a8ebfc38b8a344982bcbc4e4af\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="cad6f251cba07624f49b0c5b6287731a3c9957b8">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e3b55eb02d4b61e98b21972d1b8f603d84b5344e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\9b6d604900de5583b25308ee90333b4a3b036fd5\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="c478771eacdf8217e093a1b967b8152cfdaadc94">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d71a022c5668d6b7b54d1715071f3038ee362338.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\11fbbd56563271ff4c585800ab1f18811da301ea\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-bb61f5a77781cde932e86bb50d82188164f1b662.jar" />
+    </item>
+    <item
         jar="C:\Users\Lital\.android\build-cache\93f28f528cfd00bed746d5b32c99a89d8b91972d\output\jars\classes.jar"
         revision="25.0.2"
         sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
         <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-59c64ad1954fca2dccafad4f3fdd24f9c1d0787e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\6cbde32df5fe99fdf326234f2bddda50dd576495\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="36a6c288ed760d2d899126fa90761b84af10dd2d">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c20497fa5afd50c87b1593be61a7e3fe0689b4be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-e3fc49876d6fb9502565025e327ed52412412b09.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\9717839d56efc09bff29709ab82fe5f34488c9fe\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="edba0aec4aedd4edb3a520b4ee87adc52be762da">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-03f7a64e50e23469ec9a2e5ae998f6b0949e7b0e.jar" />
     </item>
     <item
         jar="C:\Users\Lital\.android\build-cache\0d04757ab7aa4d2139ece3a2501daa6f1406b21c\output\jars\classes.jar"
@@ -20,82 +140,10 @@
         <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-23851f3c3f97a76a1a5f6f26a829770bec30704f.jar" />
     </item>
     <item
-        jar="C:\Users\Lital\.android\build-cache\0616ba68ec9111929cdc37002389e9659504d042\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8dd7e9e2b6ea5ca62a66f21926c289bdeadeb2bf.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\8f196e3f8a5010a8ebfc38b8a344982bcbc4e4af\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="cad6f251cba07624f49b0c5b6287731a3c9957b8">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e3b55eb02d4b61e98b21972d1b8f603d84b5344e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\e7112b7d93aa099148f338888541e58008c6f43a\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="3da345d7c08a7e9d83a34d8723057624b941c0ea">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c2ce710d7266a652c28aad7ea96065515302ff0c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\9b6d604900de5583b25308ee90333b4a3b036fd5\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="c478771eacdf8217e093a1b967b8152cfdaadc94">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d71a022c5668d6b7b54d1715071f3038ee362338.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\a544711e0c8e88d52e9e607300fa1d1a711a18b3\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b0481eb2e8d401d6e98517bd86f9a7e2c4f8e0f1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\8333530b0d031384f4259d177eae9fbb6017eee2\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="28ed270c519ff2874343e0824808da2efda0df9c">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-16ff62b19065199f83186d2b91e2ad419039c46c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\0871e29ff3114103bd953b19a8a3e33aac8d9620\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-828d1a8db26a3481e2f3bd70d6be50b1e335255d.jar" />
-    </item>
-    <item
         jar="C:\Users\Lital\.android\build-cache\fa2e067cdb85e93ef1888f77bdef71b848604277\output\jars\classes.jar"
         revision="25.0.2"
         sha1="01a590e11a94cb7f5c8b1243d4a2783eab4d0a34">
         <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-33cca89b9a3d70e6e6e1cb02a7a6117c746a881e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\51451459ba300aa599d349d3afaac4551e84621d\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9e7b428430e4129081685bae047a7a11acf3c6b7.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\9717839d56efc09bff29709ab82fe5f34488c9fe\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="edba0aec4aedd4edb3a520b4ee87adc52be762da">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-03f7a64e50e23469ec9a2e5ae998f6b0949e7b0e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\6cbde32df5fe99fdf326234f2bddda50dd576495\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="36a6c288ed760d2d899126fa90761b84af10dd2d">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c20497fa5afd50c87b1593be61a7e3fe0689b4be.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\11fbbd56563271ff4c585800ab1f18811da301ea\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-bb61f5a77781cde932e86bb50d82188164f1b662.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
-        revision="25.0.2"
-        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.4.0-8cfde437b1c2ff500268e7cef5640ca8aef459d2.jar" />
     </item>
     <item
         jar="C:\Users\Lital\.android\build-cache\c5c2e230341277437e21deb86b57a946ef929fa1\output\jars\classes.jar"
@@ -104,88 +152,46 @@
         <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-47f18927fa073a79c451d397675fc5d701bd44e0.jar" />
     </item>
     <item
+        jar="C:\Users\Lital\.android\build-cache\0871e29ff3114103bd953b19a8a3e33aac8d9620\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-828d1a8db26a3481e2f3bd70d6be50b1e335255d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
+        revision="25.0.2"
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.4.0-8cfde437b1c2ff500268e7cef5640ca8aef459d2.jar" />
+    </item>
+    <item
         jar="C:\Users\Lital\.android\build-cache\365ce9de8a9fad49fd34d70bfe3d1d5a0c1d1e7b\output\jars\classes.jar"
         revision="25.0.2"
         sha1="41872d809cff2114169756aad6dcd593be2ecb59">
         <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a9f38fc1ba68dca50135e8737017a40eff2299c3.jar" />
     </item>
     <item
+        jar="C:\Users\Lital\.android\build-cache\51451459ba300aa599d349d3afaac4551e84621d\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9e7b428430e4129081685bae047a7a11acf3c6b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\8333530b0d031384f4259d177eae9fbb6017eee2\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="28ed270c519ff2874343e0824808da2efda0df9c">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-16ff62b19065199f83186d2b91e2ad419039c46c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lital\.android\build-cache\0616ba68ec9111929cdc37002389e9659504d042\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8dd7e9e2b6ea5ca62a66f21926c289bdeadeb2bf.jar" />
+    </item>
+    <item
         jar="C:\Users\Lital\.android\build-cache\417dd7ebd956641b812f229943036f117f7a2077\output\jars\classes.jar"
         revision="25.0.2"
         sha1="914f5d3e3ace66080e59613708f06d129a222e25">
         <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d717ca8cb730ea268f636b23a390bbd62d07019a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\6f99cae5be1a0b375891c804fa866d6ed8c65f06\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c05d8c1e2ccc81e0afc94a368d8fe3c6af9a2639.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\c4f04568bd61a31c2442ae715b05ad4a2de21bdf\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e7c0eb9effd22fcd6e1812d7c023cd89ff2479e2.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\c6751d4724d1144c8530049df831063e789c8287\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="132a3661719fdac703f2a6f6a7b178c85cfe3cc6">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d8c2f0026628005c4d0328b42e05c65c71fc5c81.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\da26964ac867407dbdf1734c9a52ab76d5a1dc15\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1536f41bb00fb59fc8b791e212534a657eec7bc2.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\53e36aa2320fc5a7dc56423e5d1a913f6aeda87e\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="7b4dc2d9e39fb8ec5ddca9b3b3cb7c627690f3a6">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7b7b8ea544ed3dc1aeabc540e51c69e762971635.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\c14ba08ebd46da4812c6fad917e41949923dbf95\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e0e52988dd00cd06eae3f05daf25a65cf40acfe8.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-e3fc49876d6fb9502565025e327ed52412412b09.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\126b8108396e4604ef514769b12949cd45385a4c\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="57717bc4b81722a9c3e481fc6f150a950afd550c">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e9bb65ff41b1fd8982078da151a25af6acb096e8.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\9f90eb44e4f57af2c0cb70873a2510d9a8f537ce\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="03589bac12234193d4a7a9b106a6db1b367afe99">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-28631e7272ffeacf589e5131faae771a07ef85d1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\4c2e77ca96bcc781ab2169429a6bce88dfb560c9\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c9e51768096d908f09004d6b205ebd39cd239619.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\e5a4fe156e23e1b3ed4dae741c9324993af87072\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-04f1ae07391ddc3e1bba4b532d7f225bc84f352d.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lital\.android\build-cache\6999a205bea7cf37aa1f195e04424d0a596c6e1c\output\jars\classes.jar"
-        revision="25.0.2"
-        sha1="76a7a625df0e9027b53dbed6e9ba9a6031a42e39">
-        <dex dex="D:\AndroidFinalProject\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-fd574aa807553c8c6f1b0e930a761ca04e4a4c20.jar" />
     </item>
 
 </items>

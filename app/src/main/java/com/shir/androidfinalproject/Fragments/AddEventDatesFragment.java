@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Fragments;
+package com.shir.androidfinalproject.Fragments;
 
 import android.app.DatePickerDialog;
 import android.app.Fragment;
@@ -19,9 +19,9 @@ import android.widget.EditText;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import com.colman.androidfinalproject.Adapters.DateListAdapter;
-import com.colman.androidfinalproject.R;
-import com.colman.androidfinalproject.Data.InputValidation;
+import com.shir.androidfinalproject.Adapters.DateListAdapter;
+import com.shir.androidfinalproject.R;
+import com.shir.androidfinalproject.Data.InputValidation;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

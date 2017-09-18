@@ -1,6 +1,6 @@
-package com.colman.androidfinalproject.CallBacks;
+package com.shir.androidfinalproject.CallBacks;
 
-import com.colman.androidfinalproject.Models.Event;
+import com.shir.androidfinalproject.Models.Event;
 
 public interface GetEventCallback {
     void onCompleted(Event event);

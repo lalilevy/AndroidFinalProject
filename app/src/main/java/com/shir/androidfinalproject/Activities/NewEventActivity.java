@@ -1,18 +1,18 @@
-package com.colman.androidfinalproject.Activities;
+package com.shir.androidfinalproject.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.colman.androidfinalproject.CallBacks.SaveEventCallback;
-import com.colman.androidfinalproject.Enums.Status;
-import com.colman.androidfinalproject.Fragments.AddEventDatesFragment;
-import com.colman.androidfinalproject.Fragments.AddEventDetailsFragment;
-import com.colman.androidfinalproject.Fragments.AddEventLocationsFragment;
-import com.colman.androidfinalproject.Fragments.AddEventUsersFragment;
-import com.colman.androidfinalproject.Models.Event;
-import com.colman.androidfinalproject.R;
-import com.colman.androidfinalproject.Data.model;
+import com.shir.androidfinalproject.CallBacks.SaveEventCallback;
+import com.shir.androidfinalproject.Enums.Status;
+import com.shir.androidfinalproject.Fragments.AddEventDatesFragment;
+import com.shir.androidfinalproject.Fragments.AddEventDetailsFragment;
+import com.shir.androidfinalproject.Fragments.AddEventLocationsFragment;
+import com.shir.androidfinalproject.Fragments.AddEventUsersFragment;
+import com.shir.androidfinalproject.Models.Event;
+import com.shir.androidfinalproject.R;
+import com.shir.androidfinalproject.Data.model;
 
 import java.util.ArrayList;
 import java.util.Date;

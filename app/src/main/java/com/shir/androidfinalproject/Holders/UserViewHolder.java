@@ -1,12 +1,12 @@
-package com.colman.androidfinalproject.Holders;
+package com.shir.androidfinalproject.Holders;
 
 import android.support.v7.widget.AppCompatCheckBox;
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.colman.androidfinalproject.Models.User;
-import com.colman.androidfinalproject.R;
+import com.shir.androidfinalproject.Models.User;
+import com.shir.androidfinalproject.R;
 
 public class UserViewHolder extends RecyclerView.ViewHolder {
 

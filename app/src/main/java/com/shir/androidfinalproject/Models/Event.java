@@ -1,10 +1,10 @@
-package com.colman.androidfinalproject.Models;
+package com.shir.androidfinalproject.Models;
 
 import android.support.annotation.NonNull;
 
 import com.google.firebase.database.Exclude;
 import com.google.firebase.database.IgnoreExtraProperties;
-import com.colman.androidfinalproject.Enums.Status;
+import com.shir.androidfinalproject.Enums.Status;
 
 import java.util.ArrayList;
 import java.util.Date;

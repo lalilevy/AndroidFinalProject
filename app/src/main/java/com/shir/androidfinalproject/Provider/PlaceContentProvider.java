@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Provider;
+package com.shir.androidfinalproject.Provider;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -10,8 +10,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 
-import com.colman.androidfinalproject.Data.PlaceContract;
-import com.colman.androidfinalproject.Data.PlaceDbHelper;
+import com.shir.androidfinalproject.Data.PlaceContract;
+import com.shir.androidfinalproject.Data.PlaceDbHelper;
 
 public class PlaceContentProvider extends ContentProvider {
 

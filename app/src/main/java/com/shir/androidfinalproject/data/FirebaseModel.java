@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Data;
+package com.shir.androidfinalproject.Data;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -8,17 +8,17 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.colman.androidfinalproject.CallBacks.AddCommentCallback;
-import com.colman.androidfinalproject.CallBacks.CreateUserCallback;
-import com.colman.androidfinalproject.CallBacks.GetAllCommentsCallback;
-import com.colman.androidfinalproject.CallBacks.GetAllEventsCallback;
-import com.colman.androidfinalproject.CallBacks.GetAllUsersCallback;
-import com.colman.androidfinalproject.CallBacks.GetEventCallback;
-import com.colman.androidfinalproject.CallBacks.SaveEventCallback;
-import com.colman.androidfinalproject.CallBacks.SigninCallback;
-import com.colman.androidfinalproject.Models.Comment;
-import com.colman.androidfinalproject.Models.Event;
-import com.colman.androidfinalproject.Models.User;
+import com.shir.androidfinalproject.CallBacks.AddCommentCallback;
+import com.shir.androidfinalproject.CallBacks.CreateUserCallback;
+import com.shir.androidfinalproject.CallBacks.GetAllCommentsCallback;
+import com.shir.androidfinalproject.CallBacks.GetAllEventsCallback;
+import com.shir.androidfinalproject.CallBacks.GetAllUsersCallback;
+import com.shir.androidfinalproject.CallBacks.GetEventCallback;
+import com.shir.androidfinalproject.CallBacks.SaveEventCallback;
+import com.shir.androidfinalproject.CallBacks.SigninCallback;
+import com.shir.androidfinalproject.Models.Comment;
+import com.shir.androidfinalproject.Models.Event;
+import com.shir.androidfinalproject.Models.User;
 
 import java.util.Collections;
 import java.util.HashMap;

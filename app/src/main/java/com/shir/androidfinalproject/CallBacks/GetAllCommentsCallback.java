@@ -1,6 +1,6 @@
-package com.colman.androidfinalproject.CallBacks;
+package com.shir.androidfinalproject.CallBacks;
 
-import com.colman.androidfinalproject.Models.Comment;
+import com.shir.androidfinalproject.Models.Comment;
 
 import java.util.List;
 

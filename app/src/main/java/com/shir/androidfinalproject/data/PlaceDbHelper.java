@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Data;
+package com.shir.androidfinalproject.Data;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

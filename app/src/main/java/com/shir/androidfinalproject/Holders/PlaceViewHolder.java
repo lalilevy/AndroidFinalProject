@@ -1,11 +1,11 @@
-package com.colman.androidfinalproject.Holders;
+package com.shir.androidfinalproject.Holders;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.gms.location.places.Place;
-import com.colman.androidfinalproject.R;
+import com.shir.androidfinalproject.R;
 
  /**
  * PlaceViewHolder class for the recycler view item

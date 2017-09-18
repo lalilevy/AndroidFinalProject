@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Activities;
+package com.shir.androidfinalproject.Activities;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -7,8 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.colman.androidfinalproject.R;
-import com.colman.androidfinalproject.Data.model;
+import com.shir.androidfinalproject.R;
+import com.shir.androidfinalproject.Data.model;
 
 public class BaseActivity extends AppCompatActivity {
 

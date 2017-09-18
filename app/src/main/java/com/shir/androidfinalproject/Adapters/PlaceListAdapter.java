@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Adapters;
+package com.shir.androidfinalproject.Adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.PlaceBuffer;
-import com.colman.androidfinalproject.Holders.PlaceViewHolder;
-import com.colman.androidfinalproject.R;
+import com.shir.androidfinalproject.Holders.PlaceViewHolder;
+import com.shir.androidfinalproject.R;
 
 import java.util.List;
 

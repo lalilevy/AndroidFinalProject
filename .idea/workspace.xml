@@ -11,34 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df638bb-4b5d-4da0-a282-1639a39b2154" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_android_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_ui_database_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_location_11_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_11_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_places_11_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_4_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_storage_11_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_storage_common_11_2_0.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/BaseActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/EventDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/EventDetailActivity.java" />
@@ -46,8 +26,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/NewEventActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/NewEventActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/CommentAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/CommentAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/DateListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/DateListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/EventsListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/EventsListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/PlaceListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/PlaceListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/UsersListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/UsersListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/App.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/AddCommentCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/AddCommentCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/CreateUserCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/CreateUserCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GeofenceBroadcastReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GeofenceBroadcastReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/Geofencing.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/Geofencing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetAllCommentsCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetAllCommentsCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetAllEventsCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetAllEventsCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetAllUsersCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetAllUsersCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetEventCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetEventCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetSelectedItemCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetSelectedItemCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/SaveEventCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/SaveEventCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/SigninCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/SigninCallback.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Enums/Status.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Enums/Status.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventDatesFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventDatesFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventDetailsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventDetailsFragment.java" />
@@ -55,18 +49,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventUsersFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventUsersFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/RegistrationFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/RegistrationFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/SigninFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/SigninFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/SingleChoiceDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/SingleChoiceDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/CommentViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/CommentViewHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/DateViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/DateViewHolder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/EventViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/EventViewHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/PlaceViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/PlaceViewHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/UserViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/UserViewHolder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/Comment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/Comment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/Event.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/Event.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Provider/PlaceContentProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Provider/PlaceContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/FirebaseModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/FirebaseModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/InputValidation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/InputValidation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_event_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_event_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_event_locations.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_event_locations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_registration.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_registration.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signin.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/include_event_header.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/include_event_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/PlaceContract.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/PlaceContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/PlaceDbHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/PlaceDbHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/UserDbHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/UserDbHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/model.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/model.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" />
     </list>
     <ignored path="AndroidFinalProject.iws" />
@@ -102,60 +100,21 @@
       <file leaf-file-name="EventDetailActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/EventDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="283" column="35" selection-start-line="283" selection-start-column="33" selection-end-line="283" selection-end-column="35" />
+            <state relative-caret-position="198">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_add_event_dates.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_event_dates.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="139" column="36" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_add_event_locations.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_event_locations.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="182" column="34" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_add_event_users.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_event_users.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+            <state relative-caret-position="194">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -164,44 +123,21 @@
       <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventViewHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/EventViewHolder.java">
+      <file leaf-file-name="NewEventActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/NewEventActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1020">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/widget/TextView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="4955" column="0" selection-start-line="4955" selection-start-column="0" selection-end-line="4955" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="include_event_header.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/include_event_header.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="98" column="51" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="51" />
+            <state relative-caret-position="279">
+              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
               <folding>
-                <element signature="e#3786#3807#0" expanded="true" />
-                <element signature="e#4289#4314#0" expanded="true" />
+                <element signature="e#4287#4288#0" expanded="true" />
+                <element signature="e#4339#4340#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,10 +146,53 @@
       <file leaf-file-name="EventsListAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/EventsListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="81">
               <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddEventLocationsFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventLocationsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3366">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AddEventLocationsFragment#0;class#AddEventLocationsFragment#0" expanded="false" />
+                <element signature="method#newInstance#0;class#AddEventLocationsFragment#0" expanded="false" />
+                <element signature="method#onCreateView#0;class#AddEventLocationsFragment#0" expanded="false" />
+                <element signature="method#onLocationPermissionClicked#0;class#AddEventLocationsFragment#0" expanded="false" />
+                <element signature="method#onRingerPermissionsClicked#0;class#AddEventLocationsFragment#0" expanded="false" />
+                <element signature="method#onConnected#0;class#AddEventLocationsFragment#0" expanded="false" />
+                <element signature="method#onConnectionFailed#0;class#AddEventLocationsFragment#0" expanded="false" />
+                <element signature="method#onDetach#0;class#AddEventLocationsFragment#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddEventDetailsFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventDetailsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -232,6 +211,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Lital &lt;laliilevy@gmail.com&gt;" />
         <option value="laliilevy@gmail.com" />
       </list>
     </option>
@@ -2305,16 +2285,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/UserDbHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/data/Geofencing.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Data/DataManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Data/PlaceContract.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Data/SQLiteModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/User.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/SigninFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Provider/PlaceContentProvider.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/BaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GetSelectedItemCallback.java" />
@@ -2356,6 +2332,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/EventDetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_event_users.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/colman/androidfinalproject/BuildConfig.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/com/colman/androidfinalproject/Manifest.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/com/colman/androidfinalproject/R.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -2712,7 +2692,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="SearchEverywhereHistoryKey" value="users&#9;PSI&#9;JAVA://com.shir.androidfinalproject.Models.Event#usersDates&#10;Comparator&#9;PSI&#9;JAVA://java.util.Comparator&#10;ValueEventListener&#9;PSI&#9;JAVA://com.google.firebase.database.ValueEventListener&#10;jvmargs&#9;PSI&#9;JAVA://sun.management.snmp.jvminstr.JvmRTInputArgsEntryImpl&#10;ic_notifications_active_primary_24dp&#9;FILE&#9;file://C:/Users/shir/Desktop/android/Matala4/AndroidFinalProject/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_notifications_active_primary_24dp.xml&#10;googleservices&#9;FILE&#9;file://C:/Users/shir/Desktop/android/Matala4/AndroidFinalProject/app/google-services.json&#10;item_comment&#9;FILE&#9;file://C:/Users/shir/Desktop/android/Matala4/AndroidFinalProject/app/src/main/res/layout/item_comment.xml&#10;id/visible&#9;FILE&#9;file://C:/Users/shir/AppData/Local/Android/sdk/sources/android-25/com/android/ex/chips/recipientchip/VisibleRecipientChip.java&#10;rony&#9;null&#9;null" />
-    <property name="device.picker.selection" value="ad0a160368882d12ce" />
+    <property name="device.picker.selection" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -2973,7 +2953,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -3045,6 +3025,14 @@
       <option name="presentableId" value="Default" />
       <updated>1504631545088</updated>
     </task>
+    <task id="LOCAL-00001" summary="updates">
+      <created>1505727193374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505727193374</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3075,7 +3063,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744405" sideWeight="0.45435017" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18421052" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3517647" sideWeight="0.46562836" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3517647" sideWeight="0.46562836" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17400645" sideWeight="0.48758864" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24865736" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17400645" sideWeight="0.51241136" order="3" side_tool="true" content_ui="tabs" />
@@ -3286,21 +3274,12 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventDatesFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4278">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/UserViewHolder.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/PlaceViewHolder.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Holders/DateViewHolder.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3370,6 +3349,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3384,17 +3364,6 @@
             <element signature="method#SigninFragment#0;class#SigninFragment#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/CallBacks/GeofenceBroadcastReceiver.java" />
@@ -3416,10 +3385,10 @@
             <element signature="method#goToRegistrationFragment#0;class#LoginActivity#0" expanded="false" />
             <element signature="method#replaceToRegistrationFragment#0;class#LoginActivity#0" expanded="false" />
             <element signature="method#replaceToSignInFragment#0;class#LoginActivity#0" expanded="false" />
-            <element signature="e#3472#3473#0" expanded="false" />
-            <element signature="e#3513#3514#0" expanded="false" />
-            <element signature="e#3569#3570#0" expanded="false" />
-            <element signature="e#3616#3617#0" expanded="false" />
+            <element signature="e#3456#3457#0" expanded="false" />
+            <element signature="e#3497#3498#0" expanded="false" />
+            <element signature="e#3553#3554#0" expanded="false" />
+            <element signature="e#3600#3601#0" expanded="false" />
             <element signature="method#toastMessage#0;class#LoginActivity#0" expanded="false" />
             <element signature="method#showProgressDialog#0;class#LoginActivity#0" expanded="false" />
             <element signature="method#hideProgressDialog#0;class#LoginActivity#0" expanded="false" />
@@ -3440,35 +3409,6 @@
         <state relative-caret-position="179">
           <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/NewEventActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="120" column="24" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
-          <folding>
-            <element signature="e#4307#4308#0" expanded="true" />
-            <element signature="e#4359#4360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventLocationsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#AddEventLocationsFragment#0;class#AddEventLocationsFragment#0" expanded="false" />
-            <element signature="method#newInstance#0;class#AddEventLocationsFragment#0" expanded="false" />
-            <element signature="method#onCreateView#0;class#AddEventLocationsFragment#0" expanded="false" />
-            <element signature="method#onLocationPermissionClicked#0;class#AddEventLocationsFragment#0" expanded="false" />
-            <element signature="method#onRingerPermissionsClicked#0;class#AddEventLocationsFragment#0" expanded="false" />
-            <element signature="method#onConnected#0;class#AddEventLocationsFragment#0" expanded="false" />
-            <element signature="method#onConnectionFailed#0;class#AddEventLocationsFragment#0" expanded="false" />
-            <element signature="method#onDetach#0;class#AddEventLocationsFragment#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3498,14 +3438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-870">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventDetailsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -3649,22 +3581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/EventsListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_event_dates.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3698,21 +3614,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/EventDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="283" column="35" selection-start-line="283" selection-start-column="33" selection-end-line="283" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        <state relative-caret-position="194">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Models/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/colman/androidfinalproject/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/colman/androidfinalproject/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/colman/androidfinalproject/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/EventDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Activities/NewEventActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding>
+            <element signature="e#4287#4288#0" expanded="true" />
+            <element signature="e#4339#4340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Adapters/EventsListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventLocationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3366">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AddEventLocationsFragment#0;class#AddEventLocationsFragment#0" expanded="false" />
+            <element signature="method#newInstance#0;class#AddEventLocationsFragment#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#AddEventLocationsFragment#0" expanded="false" />
+            <element signature="method#onLocationPermissionClicked#0;class#AddEventLocationsFragment#0" expanded="false" />
+            <element signature="method#onRingerPermissionsClicked#0;class#AddEventLocationsFragment#0" expanded="false" />
+            <element signature="method#onConnected#0;class#AddEventLocationsFragment#0" expanded="false" />
+            <element signature="method#onConnectionFailed#0;class#AddEventLocationsFragment#0" expanded="false" />
+            <element signature="method#onDetach#0;class#AddEventLocationsFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shir/androidfinalproject/Fragments/AddEventDetailsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
           <folding />
         </state>
       </provider>

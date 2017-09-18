@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Activities;
+package com.shir.androidfinalproject.Activities;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -7,14 +7,14 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.colman.androidfinalproject.CallBacks.CreateUserCallback;
-import com.colman.androidfinalproject.CallBacks.SigninCallback;
-import com.colman.androidfinalproject.Fragments.SigninFragment;
-import com.colman.androidfinalproject.Models.User;
-import com.colman.androidfinalproject.R;
+import com.shir.androidfinalproject.CallBacks.CreateUserCallback;
+import com.shir.androidfinalproject.CallBacks.SigninCallback;
+import com.shir.androidfinalproject.Fragments.SigninFragment;
+import com.shir.androidfinalproject.Models.User;
+import com.shir.androidfinalproject.R;
 
-import com.colman.androidfinalproject.Fragments.RegistrationFragment;
-import com.colman.androidfinalproject.Data.model;
+import com.shir.androidfinalproject.Fragments.RegistrationFragment;
+import com.shir.androidfinalproject.Data.model;
 
 import java.util.List;
 

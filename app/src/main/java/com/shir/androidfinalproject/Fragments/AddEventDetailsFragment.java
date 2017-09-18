@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Fragments;
+package com.shir.androidfinalproject.Fragments;
 
 import android.app.DatePickerDialog;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 
-import com.colman.androidfinalproject.R;
-import com.colman.androidfinalproject.Data.InputValidation;
+import com.shir.androidfinalproject.R;
+import com.shir.androidfinalproject.Data.InputValidation;
 
 import java.util.Calendar;
 import java.util.Date;

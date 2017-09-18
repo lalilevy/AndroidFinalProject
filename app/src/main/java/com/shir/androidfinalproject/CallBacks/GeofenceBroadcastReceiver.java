@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.CallBacks;
+package com.shir.androidfinalproject.CallBacks;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -13,8 +13,8 @@ import android.util.Log;
 
 import com.google.android.gms.location.Geofence;
 import com.google.android.gms.location.GeofencingEvent;
-import com.colman.androidfinalproject.Activities.NewEventActivity;
-import com.colman.androidfinalproject.R;
+import com.shir.androidfinalproject.Activities.NewEventActivity;
+import com.shir.androidfinalproject.R;
 
 public class GeofenceBroadcastReceiver extends BroadcastReceiver {
 

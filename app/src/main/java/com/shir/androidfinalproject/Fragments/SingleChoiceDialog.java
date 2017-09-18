@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Fragments;
+package com.shir.androidfinalproject.Fragments;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -6,7 +6,7 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.os.Bundle;
 
-import com.colman.androidfinalproject.CallBacks.GetSelectedItemCallback;
+import com.shir.androidfinalproject.CallBacks.GetSelectedItemCallback;
 
 import java.util.List;
 

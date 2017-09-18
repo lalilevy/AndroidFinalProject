@@ -1,4 +1,4 @@
-package com.colman.androidfinalproject.Adapters;
+package com.shir.androidfinalproject.Adapters;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,16 +8,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 
-import com.colman.androidfinalproject.Activities.BaseActivity;
-import com.colman.androidfinalproject.Activities.EventDetailActivity;
-import com.colman.androidfinalproject.Activities.MainActivity;
-import com.colman.androidfinalproject.CallBacks.GetSelectedItemCallback;
-import com.colman.androidfinalproject.Fragments.SingleChoiceDialog;
-import com.colman.androidfinalproject.Enums.Status;
-import com.colman.androidfinalproject.Holders.EventViewHolder;
-import com.colman.androidfinalproject.Models.Event;
-import com.colman.androidfinalproject.R;
-import com.colman.androidfinalproject.Data.model;
+import com.shir.androidfinalproject.Activities.BaseActivity;
+import com.shir.androidfinalproject.Activities.EventDetailActivity;
+import com.shir.androidfinalproject.Activities.MainActivity;
+import com.shir.androidfinalproject.CallBacks.GetSelectedItemCallback;
+import com.shir.androidfinalproject.Fragments.SingleChoiceDialog;
+import com.shir.androidfinalproject.Enums.Status;
+import com.shir.androidfinalproject.Holders.EventViewHolder;
+import com.shir.androidfinalproject.Models.Event;
+import com.shir.androidfinalproject.R;
+import com.shir.androidfinalproject.Data.model;
 
 import java.util.ArrayList;
 import java.util.List;
