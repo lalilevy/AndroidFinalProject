@@ -1,11 +1,11 @@
-package com.shir.androidfinalproject.Holders;
+package com.colman.androidfinalproject.Holders;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-import com.shir.androidfinalproject.Models.Comment;
-import com.shir.androidfinalproject.R;
+import com.colman.androidfinalproject.Models.Comment;
+import com.colman.androidfinalproject.R;
 
 public class CommentViewHolder extends RecyclerView.ViewHolder {
 

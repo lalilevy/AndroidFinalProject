@@ -1,0 +1,144 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.AddEventDatesFragment">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/add_event_dates_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add event dates"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/add_event_dates_title"
+        android:layout_alignEnd="@+id/btnGoToAddUsers">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/SelectEventDate_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tvAddDatesHeader"
+            android:layout_marginTop="5dp"
+            android:weightSum="1.0">
+            <EditText
+                android:id="@+id/tvSelectedEventDate"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:scrollHorizontally="false"
+                android:layout_gravity="center_horizontal"
+                android:hint="selected date"
+                android:enabled="false"/>
+            <Button
+                android:id="@+id/btnSelectEventDate"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/colorPrimary"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/select_date"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/SelectEventTime_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/SelectEventDate_form"
+            android:layout_marginTop="5dp"
+            android:weightSum="1.0">
+
+            <EditText
+            android:id="@+id/tvSelectedEventTime"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:layout_gravity="center_horizontal"
+            android:hint="selected time"
+            android:enabled="false"/>
+            <Button
+                android:id="@+id/btnSelectEventTime"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/colorPrimary"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="select time"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <Button
+            android:id="@+id/btnAddDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Add new date"
+            android:background="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Selected dates"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimaryDark" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorPrimary" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/datesListRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:listitem="@layout/item_date"/>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnGoToAddUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_navigation_check_24" />
+
+</RelativeLayout>

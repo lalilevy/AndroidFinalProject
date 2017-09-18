@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject.Holders;
+package com.colman.androidfinalproject.Holders;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -7,9 +7,9 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.shir.androidfinalproject.Enums.Status;
-import com.shir.androidfinalproject.Models.Event;
-import com.shir.androidfinalproject.R;
+import com.colman.androidfinalproject.Enums.Status;
+import com.colman.androidfinalproject.Models.Event;
+import com.colman.androidfinalproject.R;
 
 import java.util.Date;
 

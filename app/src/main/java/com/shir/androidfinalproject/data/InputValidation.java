@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject.Data;
+package com.colman.androidfinalproject.Data;
 
 import android.app.Activity;
 import android.content.Context;

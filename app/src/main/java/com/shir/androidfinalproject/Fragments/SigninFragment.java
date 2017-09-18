@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject.Fragments;
+package com.colman.androidfinalproject.Fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -11,8 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.shir.androidfinalproject.R;
-import com.shir.androidfinalproject.Data.InputValidation;
+import com.colman.androidfinalproject.R;
+import com.colman.androidfinalproject.Data.InputValidation;
 
 public class SigninFragment extends Fragment implements View.OnClickListener {
 

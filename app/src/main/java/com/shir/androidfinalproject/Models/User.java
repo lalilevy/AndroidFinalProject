@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject.Models;
+package com.colman.androidfinalproject.Models;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 

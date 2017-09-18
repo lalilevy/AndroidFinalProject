@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject;
+package com.colman.androidfinalproject;
 
 import android.app.Application;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject.Enums;
+package com.colman.androidfinalproject.Enums;
 
 public enum Status
 {

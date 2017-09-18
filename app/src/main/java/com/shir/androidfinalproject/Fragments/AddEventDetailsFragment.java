@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject.Fragments;
+package com.colman.androidfinalproject.Fragments;
 
 import android.app.DatePickerDialog;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 
-import com.shir.androidfinalproject.R;
-import com.shir.androidfinalproject.Data.InputValidation;
+import com.colman.androidfinalproject.R;
+import com.colman.androidfinalproject.Data.InputValidation;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -30,7 +30,7 @@ public class AddEventDetailsFragment extends Fragment
     EditText editEventDescription;
     EditText editEventDuration;
     EditText tvEventLastUpdateDate;
-    FloatingActionButton btnGoToAddLocations;
+    Button btnGoToAddLocations;
     Button btnEventLastUpdateDate;
 
     InputValidation inputValidation;
@@ -64,7 +64,7 @@ public class AddEventDetailsFragment extends Fragment
         editEventDescription = (EditText)view.findViewById(R.id.editEventDescription);
         editEventDuration = (EditText)view.findViewById(R.id.editEventDuration);
         tvEventLastUpdateDate = (EditText)view.findViewById(R.id.tvEventLastUpdateDate);
-        btnGoToAddLocations = (FloatingActionButton)view.findViewById(R.id.btnGoToAddLocations);
+        btnGoToAddLocations = (Button)view.findViewById(R.id.btnGoToAddLocations);
         btnEventLastUpdateDate = (Button)view.findViewById(R.id.btnEventLastUpdateDate);
     }
 

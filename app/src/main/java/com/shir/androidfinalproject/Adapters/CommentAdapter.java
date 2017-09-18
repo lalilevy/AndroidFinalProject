@@ -1,13 +1,13 @@
-package com.shir.androidfinalproject.Adapters;
+package com.colman.androidfinalproject.Adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.shir.androidfinalproject.Holders.CommentViewHolder;
-import com.shir.androidfinalproject.Models.Comment;
-import com.shir.androidfinalproject.R;
+import com.colman.androidfinalproject.Holders.CommentViewHolder;
+import com.colman.androidfinalproject.Models.Comment;
+import com.colman.androidfinalproject.R;
 
 import java.util.ArrayList;
 import java.util.List;

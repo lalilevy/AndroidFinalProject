@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject.Activities;
+package com.colman.androidfinalproject.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,11 +8,11 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 
-import com.shir.androidfinalproject.Adapters.EventsListAdapter;
-import com.shir.androidfinalproject.CallBacks.GetAllEventsCallback;
-import com.shir.androidfinalproject.Models.Event;
-import com.shir.androidfinalproject.R;
-import com.shir.androidfinalproject.Data.model;
+import com.colman.androidfinalproject.Adapters.EventsListAdapter;
+import com.colman.androidfinalproject.CallBacks.GetAllEventsCallback;
+import com.colman.androidfinalproject.Models.Event;
+import com.colman.androidfinalproject.R;
+import com.colman.androidfinalproject.Data.model;
 
 import java.util.ArrayList;
 import java.util.List;

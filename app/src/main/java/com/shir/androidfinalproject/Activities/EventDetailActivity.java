@@ -1,4 +1,4 @@
-package com.shir.androidfinalproject.Activities;
+package com.colman.androidfinalproject.Activities;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,17 +12,17 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.shir.androidfinalproject.Adapters.CommentAdapter;
-import com.shir.androidfinalproject.CallBacks.AddCommentCallback;
-import com.shir.androidfinalproject.CallBacks.GetAllCommentsCallback;
-import com.shir.androidfinalproject.CallBacks.GetEventCallback;
-import com.shir.androidfinalproject.CallBacks.GetSelectedItemCallback;
-import com.shir.androidfinalproject.Enums.Status;
-import com.shir.androidfinalproject.Fragments.SingleChoiceDialog;
-import com.shir.androidfinalproject.Models.Comment;
-import com.shir.androidfinalproject.Models.Event;
-import com.shir.androidfinalproject.R;
-import com.shir.androidfinalproject.Data.model;
+import com.colman.androidfinalproject.Adapters.CommentAdapter;
+import com.colman.androidfinalproject.CallBacks.AddCommentCallback;
+import com.colman.androidfinalproject.CallBacks.GetAllCommentsCallback;
+import com.colman.androidfinalproject.CallBacks.GetEventCallback;
+import com.colman.androidfinalproject.CallBacks.GetSelectedItemCallback;
+import com.colman.androidfinalproject.Enums.Status;
+import com.colman.androidfinalproject.Fragments.SingleChoiceDialog;
+import com.colman.androidfinalproject.Models.Comment;
+import com.colman.androidfinalproject.Models.Event;
+import com.colman.androidfinalproject.R;
+import com.colman.androidfinalproject.Data.model;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -244,9 +244,8 @@ public class EventDetailActivity extends BaseActivity implements View.OnClickLis
             @Override
             public void onApproved(String selectedItem) {
 
-                if (currEvent.setSelectedDate(userID, selectedItem)){
+               currEvent.setSelectedDate(userID, selectedItem);
                     model.instance.notifyEventChanged(currEvent);
-                }
             }
 
             @Override
@@ -268,9 +267,8 @@ public class EventDetailActivity extends BaseActivity implements View.OnClickLis
             @Override
             public void onApproved(String selectedItem) {
 
-                if (currEvent.setSelectedLocation(strEventID, selectedItem)){
-                    model.instance.notifyEventChanged(currEvent);
-                }
+                currEvent.setSelectedLocation(strEventID, selectedItem);
+                model.instance.notifyEventChanged(currEvent);
             }
 
             @Override

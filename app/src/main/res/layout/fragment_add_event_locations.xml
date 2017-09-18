@@ -175,9 +175,10 @@
         android:id="@+id/btnGoToAddDates"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_gravity="right"
         android:layout_margin="16dp"
-        android:src="@android:drawable/ic_media_next" />
+        android:src="@drawable/ic_navigation_check_24"  />
 </RelativeLayout>
